@@ -15,7 +15,7 @@ Le planning est disponible sur cet [agenda partagé Google](), il est possible d
 
 ## Plan du cours
 
-- [CM 0 : Présentation de l'UE](intro/)
+- [CM 0 : Présentation de l'UE](CM0/)
 - CM 1 : Outils de programmation en JS
 - CM 1 bis : Node.js
 - CM 2 : Frameworks côté client
