@@ -2,7 +2,7 @@
 
 Bienvenue sur la page d'accueil de l'UE M1IF13 du M1 informatique de l'UCBL.
 
-**Encadrants**
+#### Encadrants
 - Aurélien Tabard (responsable)
 - Lionel Médini
 - Alix Ducros
