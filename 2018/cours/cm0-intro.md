@@ -44,5 +44,7 @@ Aurélien Tabard - Lionel Médini
 
 - En fin de cours
 - Groupes de 3 ou 4
-- 12 minutes de présentation, 5-10 minutes de questions
-- Doivent nécessairement inclure une démo/réalisation
+- 12 minutes de présentation avec démo/réalisation
+- 5-10 minutes de questions
+
+[Liste des exposés](https://aurelient.github.io/mif13/exposes)
