@@ -2,22 +2,20 @@
 
 Bienvenue sur la page d'accueil de l'UE M1IF13 du M1 informatique de l'UCBL.
 
-
-### Encadrants
-
+** Encadrants **
 - Aurélien Tabard (responsable)
 - Lionel Médini
 - Alix Ducros
 
 ## Déroulement du module
-Le planning est disponible sur cet [agenda partagé Google](), il est possible de l'importer dans vos propres systèmes d'agenda.
+Le planning est disponible sur cet [agenda partagé Google](https://calendar.google.com/calendar?cid=ZWZoNmg0ZWplaXBncjdtaTgzNjEwaXRmNm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ), il est possible de l'importer dans vos propres systèmes d'agenda.
 
 
 ## Plan du cours
 
 - [CM 0 : Présentation de l'UE](CM0/)
-- CM 1 : Outils de programmation en JS
-- CM 1 bis : Node.js
+- [CM 1 : Outils de programmation en JS]()
+- [CM 1 bis : Node.js]()
 - CM 2 : Frameworks côté client
 - CM 3 : Templating côté client
 - CM 4 : Web Storage
@@ -32,10 +30,19 @@ Le planning est disponible sur cet [agenda partagé Google](), il est possible d
 
 ## TP
 
-- [TP 1]()
+- [TP 1](TP1)
 
 ## Exposés
-Voir [la page dédiée exposés](exposes)
-
+Voir [la page dédiée aux exposés](exposes)
 
 ## Evaluation
+
+- 3 TPs notés
+- 1 Exposé en groupe
+- 1 examen
+
+
+
+## Calendrier
+
+<iframe src="https://calendar.google.com/calendar/embed?title=M1IF13&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=500&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=efh6h4ejeipgr7mi83610itf6o%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FBerlin" style="border-width:0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
