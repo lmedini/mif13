@@ -1,8 +1,4 @@
 theme: jekyll-theme-dinky
 
-title: <a href="/mif13/2018">M1IF13 Web Avancé</a>
-description: [<a href="/mif13/2018/#Plan-du-cours">Cours</a>
-- [Cours](index#Plan-du-cours)
-- [TP](index#TP)
-- [Exposés](exposes)
-]
+title: [<a href="/mif13/2018">M1IF13 Web Avancé</a>]
+description: [<a href="/mif13/2018/#Plan-du-cours">Cours</a>]
