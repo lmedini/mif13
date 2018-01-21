@@ -29,8 +29,8 @@ Prise en main des outils JS
 Dans cette partie, vous allez vous approprier les outils présentés en cours. -->
 
 ### Outils de gestion de projet
-
-Commencez par cloner le projet sur la forge et importez-le dans WebStorm. Lancez-le avec Grunt build. Logiquement, vous devriez être bloqués dès cette première étape. Vous allez utiliser la commande npm install avec différentes options pour résoudre ce problème.
+<!-- 
+Commencez par cloner le projet sur la forge et importez-le dans WebStorm. Lancez-le avec Grunt build. Logiquement, vous devriez être bloqués dès cette première étape. Vous allez utiliser la commande npm install avec différentes options pour résoudre ce problème. -->
 
 ### Mise en place d'un serveur Node / Express
 
