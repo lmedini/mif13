@@ -7,9 +7,9 @@ La liste est modifiable via un [pull request sur le repo github du cours](https:
 
 Cette liste est indicative, vous pouvez proposer d'autres sujets.
 
-| Tables                        | Noms          | Date de passage  | Lien  |
-| ----------------------------- |:-------------:| ----------------:| ----- |
-| Firebase                      |               |                  |       |
+| Sujets                        | Noms          | Date de passage  | Lien  |
+| ----------------------------- |:-------------:| ---------------- | ----- |
+| Firebase                      | 4 noms de famille, 4 noms de famille, 4 noms de famille, 4 noms de famille             |                  |       |
 | Hood.ie                       |               |                  |       |
 | Phantom.js                    |               |                  |       |
 | Web workers                   |               |                  |       |
@@ -31,6 +31,8 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Meteor                        |               |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
+| ...                           |               |                  |       |
+| ...                           |               |                  |       |
 
 
 <!-- Merci de respecter la mise en page -->
@@ -41,11 +43,11 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 - Note de groupe
   - Choix du sujet (complexité)
   -	Structure équilibrée de la présentation
-  - Lisibilité 
+  - Lisibilité
   - Respect du temps et mise en route rapide
-  - Démo 
+  - Démo
 
 - Note personnelle		
-  - Maitrise de l'exposé 
+  - Maitrise de l'exposé
   - Qualité de la présentation orale (niveau de discours, parler fort en direction de la classe, ...)
   - Réponses aux questions
