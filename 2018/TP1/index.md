@@ -67,13 +67,40 @@ Tester, et *verser les changements sur la forge*.
 
 À la racine du projet créer un dossier `serveur`.
 
-Se placer dans le dossier et créer un fichier de configuration pour nodejs en tapant `npm init`
+Se placer dans le dossier et créer un fichier de configuration pour nodejs en tapant `npm init`, suivre les instructions.
+
+Éditer le fichier `package.json` pour ajouter une dépendance au framework Express:
+
+```json
+"dependencies": {
+  "express": "~4.15.5"
+}
+```
+
+Éditer un fichier principal de votre application côté serveur:
+```JavaScript
+const express = require('express')
+const app = express()
+
+app.get('/', (req, res) => res.send('Hello World!'))
+
+app.listen(3000, () => console.log('Example app listening on port 3000!'))
+```
+
+Lancer l'application avec `node app.js` (ou tout autre nom de votre fichier js).
+
+- Création d'une route
+
+- Création d'un chemin statique
 
 
 #### 3. Déployer
 
-Pousser le code
+- Pousser le code
 
+- CI
+
+- Utiliser le débuggeur avec le source mapping
 
 #### 4. Fin
 
