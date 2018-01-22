@@ -8,8 +8,8 @@
 ## Plan du cours
 
 - CM 0 : Présentation de l'UE [html](cours/cm0-intro) [pdf](cours/cm0-intro.pdf)
-- [CM 1 : Outils de programmation en JS]()
-- [CM 1 bis : Node.js]()
+- CM 1 : Outils de programmation en JS [html](cours/cm1-stackjs) [pdf](cours/cm1-stackjs.pdf)
+- CM 1 bis : Node.js [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html)
 - CM 2 : Frameworks côté client
 - CM 3 : Templating côté client
 - CM 4 : Web Storage

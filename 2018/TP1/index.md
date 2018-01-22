@@ -89,6 +89,13 @@ app.listen(3000, () => console.log('Example app listening on port 3000!'))
 
 Lancer l'application avec `node app.js` (ou tout autre nom de votre fichier js).
 
+Dans la partie script rajouter un racourci
+
+"scripts": {
+  "start": "node app.js"
+},
+
+
 - Création d'une route
 
 - Création d'un chemin statique
@@ -100,7 +107,13 @@ Lancer l'application avec `node app.js` (ou tout autre nom de votre fichier js).
 
 - CI
 
-- Utiliser le débuggeur avec le source mapping
+
+##### Debugging avec vue-devtools
+
+Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans votre navigateur.
+
+
+
 
 #### 4. Fin
 
