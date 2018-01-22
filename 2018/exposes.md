@@ -25,7 +25,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
 | AB testing                    |               |                  |       |
-| ASM JS                        |               |                  |       |
+| WebAssembly                   |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        |               |                  |       |
 | Meteor                        |               |                  |       |
