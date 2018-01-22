@@ -12,7 +12,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Firebase                      | nom de famille 1, nom de famille 2, nom de famille 3 |                  |       |
 | Hood.ie                       |               |                  |       |
 | Phantom.js                    |               |                  |       |
-| Web workers                   |               |                  |       |
+| Web / service workers         |               |                  |       |
 | Ember                         |               |                  |       |
 | Angular                       |               |                  |       |
 | React                         |               |                  |       |
@@ -25,12 +25,13 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
 | AB testing                    |               |                  |       |
-| ASM JS                        |               |                  |       |
+| Web Assembly                  |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        |               |                  |       |
 | Meteor                        |               |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
+| Progressive Web Apps          |               |                  |       |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
 
