@@ -26,6 +26,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web performance               |               |                  |       |
 | AB testing                    |               |                  |       |
 | WebAssembly                   |               |                  |       |
+| TypeScript                    |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        |               |                  |       |
 | Meteor                        |               |                  |       |
