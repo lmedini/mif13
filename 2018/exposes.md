@@ -32,11 +32,13 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Meteor                        |               |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
+| [Nightwatch](http://nightwatchjs.org/) |      |                  |       |
+| ...                           |               |                  |       |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
 
 
-<!-- Merci de respecter la mise en page -->
+<!-- Merci de maintenir un semblant de mise en page sur le tableau -->
 
 
 ## Critères d'évaluation
