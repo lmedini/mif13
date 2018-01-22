@@ -7,7 +7,7 @@
 
 ## Plan du cours
 
-- [CM 0 : Présentation de l'UE](cours/cm0-intro)
+- CM 0 : Présentation de l'UE [html](cours/cm0-intro) [pdf](cours/cm0-intro.pdf)
 - [CM 1 : Outils de programmation en JS]()
 - [CM 1 bis : Node.js]()
 - CM 2 : Frameworks côté client
