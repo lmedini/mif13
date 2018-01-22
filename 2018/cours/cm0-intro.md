@@ -26,7 +26,7 @@ Objectif: maitriser les technos Web modernes
 ## Contenu de l'UE
 
 - Outils de programmation en JS
-- Frameworks JS 
+- Frameworks JS
 - Programmation asynchrone
 - Programmation réactive
 - APIs HTML5
@@ -80,7 +80,7 @@ Objectif: maitriser les technos Web modernes
 - 12 minutes de présentation avec démo/réalisation
 - 5-10 minutes de questions
 
-[Liste des exposés](https://aurelient.github.io/mif13/exposes)
+[Liste des exposés](https://aurelient.github.io/mif13/2018/exposes)
 
 Date limite de choix des sujets : 1er février 2018
 
@@ -105,7 +105,7 @@ Utilisation de Vue.js et d'API dédiées.
   - Vous ajoutez vos encadrants comme reporters du projet
   - Vous remplissez un questionnaire pour indiquer vos coordonnées et l'id du projet
   - Nous exportons vos réponses au questionnaire
-  - Nous lançons une moulinette pour cloner et déployer l'ensemble des projets 
+  - Nous lançons une moulinette pour cloner et déployer l'ensemble des projets
   - Nous uploadons les réponses au questionnaire dans cette moulinette
   - Elle génère un fichier de notes pour tous les étudiants présents dans le questionnaire
   - Nous corrigeons le TP et mettons les notes
