@@ -20,7 +20,7 @@ Pour utiliser ces VMs, le plus simple est :
 - d'ouvrir une console en ssh : ssh login@192.168.74.XXX
 - d'éditer votre code sur votre machine locale à l'aide de votre IDE, et de le pusher sur votre repo quand vous voulez le tester
 - de cloner et votre dépôt et redémarrer votre serveur sur la VM
-- de tester avec le navigateur de votre machnie locale
+- de tester avec le navigateur de votre machine locale
 
 
 ### Mise en place d'un projet simple Vue.js + Express
@@ -49,17 +49,25 @@ Installez globalement le Command Line Interface (CLI) de Vue [vue-cli](https://g
 npm install -g vue-cli
 ```
 
-Nous pouvons maintenant créer un projet Vue.js simple qui s'appuiera sur l'outil de build webpack :
+Nous pouvons maintenant créer un projet Vue.js (= partie client) simple qui s'appuiera sur l'outil de build webpack :
 
 ```
-vue init webpack-simple client
+vue init webpack-simple NOM_PARTIE_CLIENT
 ```
 
-Suivez les instructions de vue-cli pour lancer le projet.
+Suivez les instructions de vue-cli, en vous plaçant dans le répertoire client projet pour lancer le projet.
 
+La commande `npm install` va installer dans le dossier `node_modules/` les dépendances définies dans le fichier `package.json` à votre projet Vue.
+
+La commande `npm run dev` va lancer la commande `dev` telle que définie dans `package.json`.
+
+Tester, et *verser les changements sur la forge*.
 
 #### 2. Créer un serveur Express (partie serveur)
 
+À la racine du projet créer un dossier `serveur`.
+
+Se placer dans le dossier et créer un fichier de configuration pour nodejs en tapant `npm init`
 
 
 #### 3. Déployer
