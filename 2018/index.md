@@ -1,7 +1,5 @@
 ## M1IF13 - Programmation Web avancée et mobile
 
-Bienvenue sur la page d'accueil de l'UE M1IF13 du M1 informatique de l'UCBL.
-
 #### Encadrants
 - Aurélien Tabard (responsable)
 - Lionel Médini

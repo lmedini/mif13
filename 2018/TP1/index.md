@@ -35,14 +35,10 @@ Commencez par créer un projet (vide) sur la forge, et clonez le sur votre machi
 Créez un fichier README.md décrivant le projet et le processus de build, ainsi qu'un fichier .gitignore :
 
 ```
-# Dependency directories
-node_modules/
-
-# Optional npm cache directory
-.npm
-
-# Mac
 .DS_Store
+node_modules/
+dist/
+*.log
 
 # Fichiers de votre IDE
 ```
