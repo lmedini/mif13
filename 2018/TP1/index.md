@@ -73,7 +73,7 @@ Tester, et *verser les changements sur la forge*.
 
 Se placer dans le dossier et créer un fichier de configuration pour nodejs en tapant `npm init`, suivre les instructions.
 
-Nous allons maintenant rajouter la dépendance à `Express` dans le partie serveur. Ouvrir `package.json`, puis taper :
+Nous allons maintenant rajouter la dépendance à `Express` dans le partie serveur. Pour cela, exécuter :
 
 ```
 npm install --save express
