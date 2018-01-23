@@ -69,15 +69,15 @@ Tester, et *verser les changements sur la forge*.
 
 Se placer dans le dossier et créer un fichier de configuration pour nodejs en tapant `npm init`, suivre les instructions.
 
-Éditer le fichier `package.json` pour ajouter une dépendance au framework Express:
+Nous allons maintenant rajouter la dépendance à `Express` dans le partie serveur. Ouvrir `package.json`, puis taper :
 
-```json
-"dependencies": {
-  "express": "~4.15.5"
-}
-```
+`npm install --save express`
 
-Éditer un fichier principal de votre application côté serveur:
+Observez les changements dans `package.json`, la dépendance a été rajoutée avec le numéro de version actuel.
+
+Rajouter une dépendance à `eslint` et à `body-parser`.
+
+Éditer un fichier principal (nous l'appelerons `app.js` par la suite) de votre application côté serveur:
 ```JavaScript
 const express = require('express')
 const app = express()
@@ -108,13 +108,41 @@ Dans la partie script rajouter un racourci
 - CI
 
 
-##### Debugging avec vue-devtools
+#### 4. Debugging avec vue-devtools
 
 Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans votre navigateur.
 
+Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
 
 
+#### 5. Fin
 
-#### 4. Fin
+Ce TP est à terminer pour ce dimanche. Au prochain TP nous mettrons en place la même stack mais pour le "vrai" projet qui sera développé tout au long des TP de l'UE.
 
-Ce TP est à terminer pour dimanche. Au prochain TP nous mettrons en place la même stack mais pour le "vrai" projet qui sera développé tout au long des TP de l'UE.
+
+#### Questions
+
+- A quoi correspond le dossier node_modules ?
+  - aux fichiers de configuration de nodejs
+  - aux dépendances du projet
+  - aux modules du projet
+  - au résultat de la compilation du projet
+
+- A quoi correspond le dossier dist ?
+  - aux fichiers de configuration de nodejs
+  - aux dépendances du projet
+  - aux modules du projet
+  - au résultat de la compilation du projet
+
+
+- Dans le fichier package.json, Pourquoi la `dependencies`, n'a pas besoin de tous les modules spécifiés dans `dev-dependencies` ?
+
+- Pourquoi node_modules contient il tant de modules alors que le fichier app.js ne fait que quelques `require()` ?
+
+- À quoi sert eslint ?
+  - à compiler le code
+  - à valider la syntaxe du code
+  - à tester le code
+  - à minifier le code
+
+- Comment réutiliser une variable définie dans le fichier package.json plus tard dans le fichier. Par exemple pour accéder au numéro de version définit comme cela : `"version": "1.0.0"`
