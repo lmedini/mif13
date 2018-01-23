@@ -73,13 +73,15 @@ Se placer dans le dossier et créer un fichier de configuration pour nodejs en t
 
 Nous allons maintenant rajouter la dépendance à `Express` dans le partie serveur. Ouvrir `package.json`, puis taper :
 
-`npm install --save express`
+```
+npm install --save express
+```
 
 Observez les changements dans `package.json`, la dépendance a été rajoutée avec le numéro de version actuel.
 
 Rajouter une dépendance à [eslint](https://eslint.org/) et à [nodemon](https://nodemon.io/).
 
-Éditer un fichier principal (nous l'appelerons `app.js` par la suite du sujet) de votre application côté serveur:
+Éditer un fichier principal (nous l'appelerons `app.js` par la suite du sujet) de votre application côté serveur :
 
 ```javascript
 const express = require('express')
@@ -101,6 +103,7 @@ Dans la partie script rajouter un racourci pour lancer le projet plus facilement
 ```
 
 Compléter la partie script pour intégrer nodemon et eslint :
+
 ```json
 "scripts": {
   "start": "node app.js",
@@ -109,12 +112,14 @@ Compléter la partie script pour intégrer nodemon et eslint :
 },
 ```
 
-Valider la syntaxe de votre code avec `eslint` (effectuer les configurations nécessaires), et corriger le code au besoin:
+Valider la syntaxe de votre code avec `eslint` (effectuer les configurations nécessaires), et corriger le code au besoin :
+
 ```
 npm run lint
 ```
 
 Quand seule une erreur liée à l'utilisation de la console reste, rajouter une exception en haut de votre fichier :
+
 ```json
 /*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 ```
@@ -133,7 +138,8 @@ npm run nodemon
 On va maintenant servir les fichiers client depuis notre serveur express.
 
 Dans app.js nous allons maintenant servir le fichier index.html créé par vuejs :
-```JavaScript
+
+```javascript
 app.get("/", (req,res) => {
 	res.sendFile(path.join(__dirname+"/../client/index.html"))
 })
