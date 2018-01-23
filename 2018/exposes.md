@@ -14,7 +14,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Phantom.js                    |               |                  |       |
 | Web workers                   |               |                  |       |
 | Ember                         |               |                  |       |
-| Angular                       |               |                  |       |
+| Angular                       | keraghel, seguin, touatioui     |           |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
 | D3.js                         |               |                  |       |
