@@ -125,8 +125,8 @@ Lancer maintenant le projet avec nodemon : tout changement dans app.js sera auto
 npm run nodemon
 ```
 
+**Tester et commiter votre code.**
 
-** Tester et commiter votre code.**
 
 #### 4. Lier client et serveur
 
@@ -137,11 +137,13 @@ Dans app.js nous allons maintenant servir le fichier index.html créé par vuejs
 app.get("/", (req,res) => {
 	res.sendFile(path.join(__dirname+"/../client/index.html"))
 })
+```
 
 Charger la page dans le navigateur et ouvrir la console du navigateur. Qu'est ce qui chargé ? Et qu'est ce qui ne l'est pas ?
 
 On va maintenant gérer les fichiers manquant. Ces derniers sont statiques (il ne changent pas). On peut donc faire un lien "dur" vers le dossier qui les contient.
-```js
+
+```javascript
 app.use("/dist", express.static(path.join(__dirname, "/../client/dist")))
 ```
 
@@ -151,7 +153,7 @@ Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans vot
 
 Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
 
-** Tester et commiter votre code. **
+**Tester et commiter votre code.**
 
 #### 5. Fin
 
