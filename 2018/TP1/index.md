@@ -175,15 +175,19 @@ Si la page ne s'affiche toujours pas, vérifié qu'un dossier dist est bien pré
 
 Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans votre navigateur.
 
-Tester sur la page suivante :
+Tester sur la page suivante : [http://todomvc.com/examples/vue/](http://todomvc.com/examples/vue/)
 
-Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
-Créer un compte chez [navitia.io](https://www.navitia.io/) pour tester leur API depuis leur plateforme, puis avec Postman.
-
-
-#### 5. Fin
+<!-- Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API. -->
+Créer un compte chez [navitia.io](https://www.navitia.io/) pour tester leur API [depuis leur plateforme](http://canaltp.github.io/navitia-playground/), puis avec Postman.
 
 **Tester et commiter votre code.**
+
+#### 5. OPTIONNEL : C.I.
+
+Configurer une C.I. dans la forge (GitLab), pour déployer votre projet sur une VM ou sur Heroku. Si nous avons le temps, nous reviendrons là dessus lors des prochain TPs.
+
+#### 6. Fin
+
 
 **Le [formulaire](https://docs.google.com/forms/d/e/1FAIpQLSdK7N7A25PJguIRAuN6pTf3ng_6crzKhL755cnb23f5fY02Lw/viewform?usp=sf_link) est à terminer pour minuit**. Au prochain TP nous mettrons en place la même stack mais pour le "vrai" projet qui sera développé tout au long des TP de l'UE.
 
