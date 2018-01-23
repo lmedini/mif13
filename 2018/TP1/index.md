@@ -25,8 +25,10 @@ Pour utiliser ces VMs, le plus simple est :
 
 ### Mise en place d'un projet simple Vue.js + Express
 
-Pour ce premier TP nous allons créer un projet Vue.js simple servit par un serveur Nodejs et le framework simple [Express](http://expressjs.com/).
+Pour ce premier TP nous allons créer un projet Vue.js simple servi par un serveur Nodejs et le framework simple [Express](http://expressjs.com/).
 
+
+**Répondre au [formulaire en parallèle de la réalisation du TP]().**
 
 #### 1. Créer un projet Vue.js (partie client)
 
@@ -75,9 +77,9 @@ Nous allons maintenant rajouter la dépendance à `Express` dans le partie serve
 
 Observez les changements dans `package.json`, la dépendance a été rajoutée avec le numéro de version actuel.
 
-Rajouter une dépendance à `eslint` et à `body-parser`.
+Rajouter une dépendance à [eslint](https://eslint.org/) et à [nodemon](https://nodemon.io/).
 
-Éditer un fichier principal (nous l'appelerons `app.js` par la suite) de votre application côté serveur:
+Éditer un fichier principal (nous l'appelerons `app.js` par la suite du sujet) de votre application côté serveur:
 ```JavaScript
 const express = require('express')
 const app = express()
@@ -89,24 +91,58 @@ app.listen(3000, () => console.log('Example app listening on port 3000!'))
 
 Lancer l'application avec `node app.js` (ou tout autre nom de votre fichier js).
 
-Dans la partie script rajouter un racourci
+Dans la partie script rajouter un racourci pour lancer le projet plus facilement :
 
+```json
 "scripts": {
   "start": "node app.js"
 },
+```
+
+Compléter la partie script pour intégrer nodemon et eslint :
+```json
+"scripts": {
+  "start": "node app.js",
+  "nodemon": "nodemon app.js --exec 'npm run lint && node'",
+  "lint": "eslint *.js"
+},
+```
+
+Valider la syntaxe de votre code avec `eslint` (effectuer les configurations nécessaires), et corriger le code au besoin:
+```
+npm run lint
+```
+
+Quand seule une erreur liée à l'utilisation de la console reste, rajouter une exception en haut de votre fichier :
+```json
+/*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
+```
+
+Lancer maintenant le projet avec nodemon : tout changement dans app.js sera automatiquement validé via eslint, puis le serveur rechargé.
+
+```
+npm run nodemon
+```
 
 
-- Création d'une route
+** Tester et commiter votre code.**
 
-- Création d'un chemin statique
+#### 4. Lier client et serveur
 
+On va maintenant servir les fichiers client depuis notre serveur express.
 
-#### 3. Déployer
+Dans app.js nous allons maintenant servir le fichier index.html créé par vuejs :
+```JavaScript
+app.get("/", (req,res) => {
+	res.sendFile(path.join(__dirname+"/../client/index.html"))
+})
 
-- Pousser le code
+Charger la page dans le navigateur et ouvrir la console du navigateur. Qu'est ce qui chargé ? Et qu'est ce qui ne l'est pas ?
 
-- CI
-
+On va maintenant gérer les fichiers manquant. Ces derniers sont statiques (il ne changent pas). On peut donc faire un lien "dur" vers le dossier qui les contient.
+```JavaScript
+app.use("/dist", express.static(path.join(__dirname, "/../client/dist")))
+```
 
 #### 4. Debugging avec vue-devtools
 
@@ -114,6 +150,7 @@ Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans vot
 
 Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
 
+** Tester et commiter votre code. **
 
 #### 5. Fin
 
