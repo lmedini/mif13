@@ -80,7 +80,8 @@ Observez les changements dans `package.json`, la dépendance a été rajoutée a
 Rajouter une dépendance à [eslint](https://eslint.org/) et à [nodemon](https://nodemon.io/).
 
 Éditer un fichier principal (nous l'appelerons `app.js` par la suite du sujet) de votre application côté serveur:
-```JavaScript
+
+```javascript
 const express = require('express')
 const app = express()
 
@@ -140,7 +141,7 @@ app.get("/", (req,res) => {
 Charger la page dans le navigateur et ouvrir la console du navigateur. Qu'est ce qui chargé ? Et qu'est ce qui ne l'est pas ?
 
 On va maintenant gérer les fichiers manquant. Ces derniers sont statiques (il ne changent pas). On peut donc faire un lien "dur" vers le dossier qui les contient.
-```JavaScript
+```js
 app.use("/dist", express.static(path.join(__dirname, "/../client/dist")))
 ```
 
