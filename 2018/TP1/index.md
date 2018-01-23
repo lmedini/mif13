@@ -83,6 +83,16 @@ Observez les changements dans `package.json`, la dépendance a été rajoutée a
 
 Rajouter une dépendance à [eslint](https://eslint.org/) et à [nodemon](https://nodemon.io/).
 
+
+Rajouter une section devDependencies dans le fichier `package.json` si elle n'existe pas encore, et y déplacer les dépendances qui ne sont utiles que pour le développement :
+
+```json
+"devDependencies": {
+ à compléter
+}
+```
+
+
 Éditer un fichier principal (nous l'appelerons `app.js` par la suite du sujet) de votre application côté serveur :
 
 ```javascript
@@ -154,6 +164,11 @@ On va maintenant gérer les fichiers manquant. Ces derniers sont statiques (il n
 ```javascript
 app.use("/dist", express.static(path.join(__dirname, "/../client/dist")))
 ```
+
+**Tester.**
+
+Si la page ne s'affiche toujours pas, vérifié qu'un dossier dist est bien présent côté client. Ce dossier est créé lorsque que l'on lance un bundling webpack pour la production. Effectuer cette opération le cas échéant.
+
 **Tester et commiter votre code.**
 
 #### 4. Debugging avec vue-devtools et postman
