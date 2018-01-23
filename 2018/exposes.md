@@ -15,7 +15,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web workers                   |               |                  |       |
 | Ember                         |               |                  |       |
 | Angular                       | keraghel, seguin, touatioui     |           |       |
-| React                         |               |                  |       |
+| React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
 | D3.js                         |               |                  |       |
 | Preprocesseurs CSS            |               |                  |       |
