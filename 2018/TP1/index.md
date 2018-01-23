@@ -1,5 +1,7 @@
 ## TP 1 : Mise en place d'une stack JavaScript
 
+**Répondre au [formulaire en parallèle de la réalisation du TP](https://docs.google.com/forms/d/1_E5Cgg5tn6-Tx-hfDcQl6CrV-Gxlzk_CxcIjZkjtdOs/).** Il est simple et peut être réalisé dans le temps du TP, il est à remplir au plus tard à minuit.
+
 ### Présentation de l'application
 
 Nous allons construire une application de conseil en mobilité (comme [Citymapper](http://citymapper.fr/)) en utilisant [Vue.js](http://vuejs.org/) et l'API de [navitia.io](https://www.navitia.io/)
@@ -28,7 +30,7 @@ Pour utiliser ces VMs, le plus simple est :
 Pour ce premier TP nous allons créer un projet Vue.js simple servi par un serveur Nodejs et le framework simple [Express](http://expressjs.com/).
 
 
-**Répondre au [formulaire en parallèle de la réalisation du TP]().**
+**Répondre au [formulaire en parallèle de la réalisation du TP](https://docs.google.com/forms/d/1_E5Cgg5tn6-Tx-hfDcQl6CrV-Gxlzk_CxcIjZkjtdOs/).**
 
 #### 1. Créer un projet Vue.js (partie client)
 
@@ -120,7 +122,7 @@ npm run lint
 
 Quand seule une erreur liée à l'utilisation de la console reste, rajouter une exception en haut de votre fichier :
 
-```json
+```javascript
 /*eslint no-console: ["error", { allow: ["log", "warn", "error"] }] */
 ```
 
@@ -152,21 +154,26 @@ On va maintenant gérer les fichiers manquant. Ces derniers sont statiques (il n
 ```javascript
 app.use("/dist", express.static(path.join(__dirname, "/../client/dist")))
 ```
+**Tester et commiter votre code.**
 
-#### 4. Debugging avec vue-devtools
+#### 4. Debugging avec vue-devtools et postman
 
 Installer l'addon [vue-devtools](https://github.com/vuejs/vue-devtools) dans votre navigateur.
 
-Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
+Tester sur la page suivante :
 
-**Tester et commiter votre code.**
+Installer [Postman](https://www.getpostman.com/) pour tester des endpoints d'API.
+Créer un compte chez [navitia.io](https://www.navitia.io/) pour tester leur API depuis leur plateforme, puis avec Postman.
+
 
 #### 5. Fin
 
-Ce TP est à terminer pour ce dimanche. Au prochain TP nous mettrons en place la même stack mais pour le "vrai" projet qui sera développé tout au long des TP de l'UE.
+**Tester et commiter votre code.**
+
+**Le [formulaire](https://docs.google.com/forms/d/1_E5Cgg5tn6-Tx-hfDcQl6CrV-Gxlzk_CxcIjZkjtdOs/) est à terminer pour minuit**. Au prochain TP nous mettrons en place la même stack mais pour le "vrai" projet qui sera développé tout au long des TP de l'UE.
 
 
-#### Questions
+<!-- #### Questions
 
 - A quoi correspond le dossier node_modules ?
   - aux fichiers de configuration de nodejs
@@ -191,4 +198,4 @@ Ce TP est à terminer pour ce dimanche. Au prochain TP nous mettrons en place la
   - à tester le code
   - à minifier le code
 
-- Comment réutiliser une variable définie dans le fichier package.json plus tard dans le fichier. Par exemple pour accéder au numéro de version définit comme cela : `"version": "1.0.0"`
+- Comment réutiliser une variable définie dans le fichier package.json plus tard dans le fichier. Par exemple pour accéder au numéro de version définit comme cela : `"version": "1.0.0"` -->
