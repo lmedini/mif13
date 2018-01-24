@@ -25,7 +25,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
 | AB testing                    |               |                  |       |
-| WebAssembly                   |               |                  |       |
+| WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
 | TypeScript                    |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        |               |                  |       |
