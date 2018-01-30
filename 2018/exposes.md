@@ -33,6 +33,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
 | [Nightwatch](http://nightwatchjs.org/) |      |                  |       |
+| [Django](https://www.djangoproject.com/)     |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH     |                  |       |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
