@@ -20,7 +20,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | D3.js                         |               |                  |       |
 | Preprocesseurs CSS            |               |                  |       |
 | Frameworks CSS                |               |                  |       |
-| Web RTC                       |               |                  |       |
+| Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
 | IndexedDB                     |               |                  |       |
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
