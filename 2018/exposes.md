@@ -28,7 +28,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
 | TypeScript                    |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
-| Web GL                        |               |                  |       |
+| Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH              |                  |       |
 | Meteor                        | PEULTIER, FONTAINE, PHAM              |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
