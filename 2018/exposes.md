@@ -17,7 +17,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Angular                       | keraghel, seguin, touatioui     |           |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
-| D3.js                         |               |                  |       |
+| D3.js                         |  LAFOND, NUEL, MARRON             |                  |       |
 | Preprocesseurs CSS            |               |                  |       |
 | Frameworks CSS                |               |                  |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
