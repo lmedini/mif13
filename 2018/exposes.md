@@ -29,7 +29,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | TypeScript                    |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        |               |                  |       |
-| Meteor                        |               |                  |       |
+| Meteor                        | PEULTIER, FONTAINE, PHAM              |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
 | [Nightwatch](http://nightwatchjs.org/) |      |                  |       |
