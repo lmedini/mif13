@@ -17,7 +17,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Angular                       | keraghel, seguin, touatioui     |           |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
-| D3.js                         |               |                  |       |
+| D3.js                         |  LAFOND, NUEL, MARRON             |                  |       |
 | Preprocesseurs CSS            |               |                  |       |
 | Frameworks CSS                |               |                  |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
@@ -28,13 +28,14 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
 | TypeScript                    |               |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
-| Web GL                        |               |                  |       |
-| Meteor                        |               |                  |       |
+| Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH              |                  |       |
+| Meteor                        | PEULTIER, FONTAINE, PHAM              |                  |       |
 | Rendr                         |               |                  |       |
 | A-Fame                        |               |                  |       |
 | [Nightwatch](http://nightwatchjs.org/) |      |                  |       |
-| [Django](https://www.djangoproject.com/)     |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH     |                  |       |
-| RequireJS                     |   MOUSSA, LAM , LITIM            |                  |       |
+| [Django](https://www.djangoproject.com/)      |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH     |                  |       |
+| RequireJS                     | MOUSSA, LAM , LITIM            |                  |       |
+| CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE | |      |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
 
