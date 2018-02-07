@@ -36,6 +36,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | [Django](https://www.djangoproject.com/)      |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH     |                  |       |
 | RequireJS                     | MOUSSA, LAM , LITIM            |                  |       |
 | CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE | |      |
+| PixiJS                        | EYMARD, MICHON, ROBIN, VALLET | |      |
 | ...                           |               |                  |       |
 | ...                           |               |                  |       |
 
