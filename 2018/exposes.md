@@ -26,7 +26,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web performance               |               |                  |       |
 | AB testing                    |               |                  |       |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
-| TypeScript                    |               |                  |       |
+| TypeScript                    |  SOW, DIALLO, VERA, MARIE MICHAEL RAJ             |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH              |                  |       |
 | Meteor                        | PEULTIER, FONTAINE, PHAM              |                  |       |
