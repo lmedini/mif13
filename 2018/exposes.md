@@ -37,7 +37,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | RequireJS                     | MOUSSA, LAM , LITIM            |                  |       |
 | CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE | |      |
 | PixiJS                        | EYMARD, MICHON, ROBIN, VALLET | |      |
-| ...                           |               |                  |       |
+| Phaser                        | BOURDON, CHAY, PRADELLE   |                  |       |
 | ...                           |               |                  |       |
 
 
