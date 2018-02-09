@@ -38,7 +38,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE | |      |
 | PixiJS                        | EYMARD, MICHON, ROBIN, VALLET | |      |
 | PlayCanvas (GE)               | CASTANEDA, CREVITS, -place vacante-              |                  |       |
-| ...                           |               |                  |       |
+| Phaser                        | BOURDON, CHAY, PRADELLE   |                  |       |
 | ...                           |               |                  |       |
 
 
