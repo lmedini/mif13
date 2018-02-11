@@ -23,7 +23,8 @@ Aurélien Tabard - Lionel Médini
 ### Ressources
 
 Page à compléter :
-- (Hacks et liens utiles)[https://aurelient.github.io/mif13/2018/hack]Hack
+- [Liens utiles](https://aurelient.github.io/mif13/2018/hack) <small>: [https://aurelient.github.io/mif13/2018/hack](https://aurelient.github.io/mif13/2018/hack)</small>
+
 
 Livres
 - [Eloquent Javascript (3rd edition EN)](http://eloquentjavascript.net/3rd_edition/)
@@ -155,7 +156,7 @@ Milieu des années 2000 : bascule d'un Web centré documents et formulaires vers
 --- 
 ### Années 2010 : frameworks JS
 
-- Émergeance des Single Page Applications
+- Émergence des Single Page Applications
 - Déplacement de la logique sur le client
 - Structuration du code
 - Développement du "tooling" : Paquets, CSS, Javascript.
@@ -171,29 +172,66 @@ Milieu des années 2000 : bascule d'un Web centré documents et formulaires vers
 - Backbone
 - ...
 
-[Liste sur wikipedia](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)
+[The ultimate guide to javascript frameworks](https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks/)
+[Liste sur wikipedia](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks) 
 
 --- 
-###
+### Frameworks côté client
+
+Objectif
+- Faciliter le développement d'applications "single-page" (SPA) côté client
 
 
-
---- 
-### 
-
-
---- 
-### 
-
-
-
---- 
-### 
+Propriétés
+- un pattern MV*
+- une sorte de pattern IoC
+- réactives
 
 
 
 --- 
-### 
+### Frameworks côté client
+
+Caractéristiques :
+
+- Interceptent le changement d'URL (hash)
+- S'appuient sur une structure modulaire
+- S'appuient sur d'autres bibliothèques
+   - Gestion des objets JS
+   - Gestion des événements
+   - Templating
+ 
+
+--- 
+#### Principe 1 : Routage
+
+Objectif : Simuler des pages web différentes
+
+- Intercepter le changement de hash dans l'URL
+- Récupérer les - éventuels - paramètres
+- Déclencher un callback
+
+Moyens :
+- événement `hashchange`
+- hash `window.location.hash`
+
+
+--- 
+#### Principe 2 : Liens entre modèle et vue
+
+*One-way data binding*
+
+- Une action sur la vue provoque la mise à jour du modèle
+
+
+*Two-way data binding*
+
+1. Une action sur la vue provoque la mise à jour du modèle
+2. Toute modification d'une propriété du modèle provoque une mise à jour de la vue
+
+
+--- 
+### Principe 3 : Templating
 
 
 

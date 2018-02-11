@@ -10,10 +10,10 @@
 - CM 0 : Présentation de l'UE — [html](cours/cm0-intro) — [pdf](cours/cm0-intro.pdf)
 - CM 1 : Outils de programmation en JS — [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf)
 - CM 1 bis : Node.js [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html)
-- CM 2 : Frameworks côté client
-- CM 3 : Templating côté client
+- CM 2 : Frameworks côté client [html](cours/cm2-frameworks) — [pdf](cours/cm2-frameworks.pdf)
+- CM 3 : Mise en forme avancée
 - CM 4 : Web Storage
-- CM 5 : Mise en forme avancée
+- CM 5 : 
 - CM 6 : Introduction Web mobile
 - CM 6 bis : Touch events
 - CM 7 : Mashups de données / requêtage cross-domaine
@@ -25,8 +25,8 @@
 ## TP
 
 - [TP 1](TP1) Mise en place d'une Stack JavaScript
-- [TP 2]() Introduction à Vuejs
-- [TP 3]() Templating avec Vuejs
+- [TP 2](TP2) Introduction à Vuejs
+
 
 ## Exposés
 Voir [la page dédiée aux exposés](exposes)
