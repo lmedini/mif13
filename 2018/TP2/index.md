@@ -15,7 +15,7 @@ Ce TP vise à se familiariser avec les templates Vue et la notion de route.
 
 Nous allons construire le squelette d'une application qui reprend les éléments suivants : 
 
-![wireframes]({{"/TP2/wireframes.png"}})
+![wireframes]({{"wireframes.png"}})
 
 
 ### Mise en place d'un projet Vue.js avancé
@@ -34,15 +34,16 @@ Répondre aux questions :
 - `Set up unit tests` : `Yes` (on verra plus tard).
 - `Pick a test runner` : noTest
 - `Setup e2e tests with Nightwatch?` : `No`
-- Should we run `npm install` for you after the project has been created? : yes
+- Should we run `npm install` for you after the project has been created? : `yes`
 
 
 *Explorer le projet créé (regarder les fichiers invisibles)*
 
 ##### Questions 
+- Pour chaque fichier ou dossier à la racine expliquer à quoi il correspond en une phrase
 - Quelle est la commande pour assembler le projet en mode développement ?
-- Quelle est la commande pour assembler le projet en mode deploiement ?
-- Ou sont définies ses commandes ?
+- Quelle est la commande pour assembler le projet en mode production ?
+- Dans quel fichier sont définies ces commandes ?
 
 ### Modifier la page Vue
 
