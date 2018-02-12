@@ -9,6 +9,8 @@ Cette application sera une Single Page Application (SPA), développée principal
 ### Outils
 Voir le [TP précédent](../TP1).
 
+Visual Studio Code, combiné aux modules Vetur, ESLint et de debug navigateur est un bonne combinaison.
+
 
 ### Objectifs
 Ce TP vise à se familiariser avec les templates Vue et la notion de route.
@@ -45,10 +47,6 @@ Répondre aux questions :
 - Quelle est la commande pour assembler le projet en mode production ?
 - Dans quel fichier sont définies ces commandes ?
 
-### Modifier la page Vue
-
-Simplifier la 
-
 ### Versioner
 
 Éditer le fichier `README` pour qu'il contienne les noms, prénoms et numéro d'étudiant du projet. 
@@ -57,4 +55,30 @@ Ne garder que les instructions de compilation qui sont valides.
 
 Rajouter une description du projet 
 
+### Ajout de nouvelles routes
 
+1. Modifier HelloWorld.vue pour avoir une structure proche du premier écran (A).
+
+2. Créer des routes et ajouter des pointeurs vers ces routes :
+- *Autour de moi* pointera sur une route `/aroundme`
+- *Ajouter* pointera sur une route `/adresses`
+
+```html
+    <router-link to="/aroundme">Autour de moi</router-link>
+```
+
+3. Créer les composants correspondants aux routes
+
+4. Tester que les routes fonctionent. Versioner.
+
+### Composant AroundMe
+Créer un composant simple correspondant à la vue (B) des wireframes.
+
+Pour le moment ce composant sera constitué d'un titre et d'une iframe contenant une google map centrée sur le batîment Nautibus. 
+
+Rajouter un lien permettant de revenir à l'écran d'accueil
+
+Tester le composant, les routes, puis versioner.
+
+### Composant Mes adresses
+Ce composant est plus complexe et va stocker les adresses préférées de l'usager.
