@@ -28,7 +28,7 @@ Créer un nouveau projet Vue.js en utilisation `vue init`. Cette approche crée 
 vue init webpack nom_de_lapplication
 ```
 
-Répondre aux questions :
+Répondre aux questions de la façon suivante :
 - `Vue build` : `standalone`
 - `Install vue-router?` : `Yes`
 - `Use ESLint to lint your code?` : `Yes`
@@ -51,34 +51,37 @@ Répondre aux questions :
 
 Éditer le fichier `README` pour qu'il contienne les noms, prénoms et numéro d'étudiant du projet. 
 
-Ne garder que les instructions de compilation qui sont valides. 
+Ne garder que les instructions de build qui sont utiles (et valides). 
 
-Rajouter une description du projet 
+Rajouter une description du projet.
+
+**Versioner**
 
 ### Ajout de nouvelles routes
 
 1. Modifier HelloWorld.vue pour avoir une structure proche du premier écran (A).
 
-2. Créer des routes et ajouter des pointeurs vers ces routes :
-- *Autour de moi* pointera sur une route `/aroundme`
-- *Ajouter* pointera sur une route `/adresses`
-
+Le code suivant permet de créer une route Vue (utilisant de #).
 ```html
     <router-link to="/aroundme">Autour de moi</router-link>
 ```
+
+2. Créer des routes et ajouter des pointeurs vers ces routes :
+- *Autour de moi* pointera sur une route `/aroundme`
+- *Ajouter* pointera sur une route `/adresses`
 
 3. Créer les composants correspondants aux routes
 
 4. Tester que les routes fonctionent. Versioner.
 
-### Composant AroundMe
-Créer un composant simple correspondant à la vue (B) des wireframes.
+### Composant *AroundMe*
+1. Créer un composant simple correspondant à la vue (B) des wireframes.
 
-Pour le moment ce composant sera constitué d'un titre et d'une iframe contenant une google map centrée sur le batîment Nautibus. 
+2. Pour le moment ce composant sera constitué d'un titre et d'une iframe contenant une google map centrée sur le batîment Nautibus. 
 
-Rajouter un lien permettant de revenir à l'écran d'accueil
+3. Rajouter un lien permettant de revenir à l'écran d'accueil
 
-Tester le composant, les routes, puis versioner.
+4. Tester le composant, les routes, puis versioner.
 
-### Composant Mes adresses
+### Composant *Mes adresses*
 Ce composant est plus complexe et va stocker les adresses préférées de l'usager.
