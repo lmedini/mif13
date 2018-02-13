@@ -18,7 +18,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
 | D3.js                         |  LAFOND, NUEL, MARRON             |                  |       |
-| Preprocesseurs CSS            |               |                  |       |
+| Less            |               |  DAVID, DE SOUSA, VIEIRA                |       |
 | Frameworks CSS                |               |                  |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
 | IndexedDB                     |               |                  |       |
