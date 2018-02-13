@@ -308,7 +308,7 @@ export default {
 
 Vous pouvez tester que les changements dans `data` se répercutent automatiquement sur votre champ d'`input` (et inversement) en utilisant le devtool.
 
-Maintenant que la valeur des champs du formulaire sont captées, nous allons faire en sorte que le bouton `Ajouter` fonctionne. Pour cela nous allons capter l'évènement `click` de l'élément `button` et le lier à une méthode de notre composant.
+Maintenant que les valeurs des champs du formulaire sont captées, nous allons faire en sorte que le bouton `Ajouter` fonctionne. Pour cela nous allons capter l'évènement `click` de l'élément `button` et le lier à une méthode de notre composant.
 
 ```html
 ...
@@ -360,3 +360,4 @@ Désormais, lors du clic sur le bouton pour créer une adresse, une nouvelle lig
 **Tester et versionner**
 
 ### Bonus
+Maintenant que nous avons des composants réutilisables, pouvez-vous afficher la liste des adresses enregistrées dans le composant `HelloWorld` sous le titre "Mes adresses" ?
