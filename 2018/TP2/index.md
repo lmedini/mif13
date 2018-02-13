@@ -217,7 +217,7 @@ export default {
 
 **Tester et versionner**
 
-##### Modularisation : création d'un composant Address
+##### Modularisation : création d'un composant AddressItem
 
 Pour plus de modularisation et de réutilisation, on va maintenant créer un composant `AddressItem` qui sera en charge de l'affichage d'une adresse et de son "petit" nom.
 
