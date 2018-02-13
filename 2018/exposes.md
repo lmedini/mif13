@@ -9,23 +9,23 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 
 | Sujets                        | Noms          | Date de passage  | Lien  |
 | ----------------------------- |:-------------:| ---------------- | ----- |
-| Firebase                      | nom de famille 1, nom de famille 2, nom de famille 3 |                  |       |
+| Firebase                      | nom 1, nom 2, nom 3              |       |       |
 | Hood.ie                       |               |                  |       |
-| Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG              |                  |       |
+| Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG      |             |       |
 | Web workers                   |               |                  |       |
-| Ember                         | BERNELIN, GUTIERREZ |                  |       |
-| Angular                       | keraghel, seguin, touatioui     |           |       |
-| React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
-| P5.js                         | SAHIN, HONGOIS, LACOMBE |                  |       |
-| D3.js                         |  LAFOND, NUEL, MARRON             |                  |       |
-| Less            |               |  DAVID, DE SOUSA, VIEIRA                |       |
+| Ember                         | BERNELIN, GUTIERREZ, -place vacante- |                  |       |
+| Angular                       | keraghel, seguin, touatioui      |        |       |
+| React                         | CHAPUT, HERAUT, SACCHARIN        |        |       |
+| P5.js                         | SAHIN, HONGOIS, LACOMBE          |        |       |
+| D3.js                         | LAFOND, NUEL, MARRON             |                  |       |
+| Less                          | DAVID, DE SOUSA, VIEIRA          |       |           |
 | Frameworks CSS                |               |                  |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
 | IndexedDB                     |               |                  |       |
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
-| AB testing                    | CHABOUD, CHEMIN              |                  |       |
-| WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
+| AB testing                    | CHABOUD, CHEMIN, -place vacante-         |                  |       |
+| WebAssembly                   | CURRANT, GRANDY, GUEUX           |                  |       |
 | TypeScript                    |  SOW, DIALLO, VERA, MARIE MICHAEL RAJ             |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH              |                  |       |
