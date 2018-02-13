@@ -15,7 +15,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web workers                   |               |                  |       |
 | Ember                         | BERNELIN, GUTIERREZ, -place vacante- |                  |       |
 | Angular                       | keraghel, seguin, touatioui      |        |       |
-| React                         | CHAPUT, HERAUT, SACCHARIN        |        |       |
+| React                         | CHAPUT, HERAUT, SACCHARIN, BONI  |        |       |
 | P5.js                         | SAHIN, HONGOIS, LACOMBE          |        |       |
 | D3.js                         | LAFOND, NUEL, MARRON             |                  |       |
 | Less                          | DAVID, DE SOUSA, VIEIRA          |       |           |
