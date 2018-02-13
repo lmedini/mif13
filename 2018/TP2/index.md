@@ -129,10 +129,18 @@ export default {
 Créer un compostant `MyAddresses` si ce n'est pas encore fait, et y importer ce composant dans `AddressList`
 
 ```html
+<template>
+  <div id="myaddresses">
+    <h1>Mes adresses</h1>
+    <address-list></address-list>
+  </div>
+</template>
+
 <script>
 import AddressList from './components/AddressList';
 
 export default {
+  name: 'MyAddresses',
   components: {
     // Reference to the AddressList component
     AddressList,
@@ -140,3 +148,79 @@ export default {
 };
 </script>
 ```
+
+Rajouter des données à `MyAddresses` :
+```js
+export default {
+...
+  data () {
+    return {
+      addresses: [{
+        name: 'Maison',
+        address: '34 rue Bolivar, 69005, Lyon',
+        favorite: true
+      }, {
+        name: 'Travail',
+        address: '43, bd du 11 novembre 1918, 69622 Villeurbanne cedex',
+        favorite: true
+      }, {
+        name: 'Nautibus',
+        address: '43, bd du 11 novembre 1918, 69622 Villeurbanne cedex',
+        favorite: false
+      }, {
+        name: 'AML',
+        address: '43, bd du 11 novembre 1918, 69622 Villeurbanne cedex',
+        favorite: false
+      }]
+    }
+};
+```
+
+On peut maintenant attacher (= `bind`) les données au composant liste.
+```xml
+<address-list v-bind:addresses="addresses"></address-list>
+```
+
+Pour que les addresses soient accessibles dans le composant liste, il faut déclarer la propriété qui permet d'utiliser les addresses.
+
+```js
+export default {  
+    props: ['addresses'],
+}
+```
+
+Cela prend la forme ci-dessous. On retrouve deux formes de templating : la boucle `for` sur les adresses, et la récupération de variables entre double accolade.
+
+```html
+<template>
+  <div>
+    <div class='' v-for="address in addresses">
+      <div class='content'>
+        <div class='header'>
+          {{ address.name }}
+        </div>
+        <div class='meta'>
+          {{ address.address }}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script type = "text/javascript" >
+
+export default {
+  props: ['addresses']
+};
+</script>
+```
+
+**Tester et versionner**
+
+##### Modularisation : création d'un composant Address
+
+
+
+
+
+##### Création d'un composant AddAddress
