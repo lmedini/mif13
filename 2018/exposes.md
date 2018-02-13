@@ -13,7 +13,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Hood.ie                       |               |                  |       |
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG              |                  |       |
 | Web workers                   |               |                  |       |
-| Ember                         |               |                  |       |
+| Ember                         | BERNELIN, GUTIERREZ |                  |       |
 | Angular                       | keraghel, seguin, touatioui     |           |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
 | P5.js                         |               |                  |       |
