@@ -231,10 +231,10 @@ Créer un composant `AddressItem` en réutilisant le code provenant de `AddressL
 <template>
   <p class='content'>
     <em class='label'>
-        {{ address.name }} :
+        {{ "{{address.name "}}}} :
     </em>
     <span class='desc'>
-        {{ address.address }}
+        {{ "{{address.address "}}}}
     </span>
   </p>
 </template>
