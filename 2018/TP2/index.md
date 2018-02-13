@@ -47,6 +47,8 @@ Répondre aux questions de la façon suivante :
 - Quelle est la commande pour assembler le projet en mode production ?
 - Dans quel fichier sont définies ces commandes ?
 
+Vous pouvez répondre à ces questions sur [ce formulaire](https://docs.google.com/forms/d/e/1FAIpQLScmeMTMrPkf8Raxu3jExpXwZkRO8EvKfMNhcjk5wVAxqMJDtQ/viewform?usp=sf_link).
+
 ### Versioner
 
 Éditer le fichier `README` pour qu'il contienne les noms, prénoms et numéro d'étudiant du projet. 
