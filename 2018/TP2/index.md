@@ -219,7 +219,49 @@ export default {
 
 ##### Modularisation : création d'un composant Address
 
-Pour plus de modularisation et de réutilisation, on va maintenant créer un composant `Address` qui sera en charge de l'affichage d'une adresse, de son "petit" nom.
+Pour plus de modularisation et de réutilisation, on va maintenant créer un composant `AddressItem` qui sera en charge de l'affichage d'une adresse et de son "petit" nom.
+
+Créer un composant `AddressItem` en réutilisant le code provenant de `AddressList`
+
+```html
+<template>
+  <p class='content'>
+    <em class='label'>
+        {{ address.name }} :
+    </em>
+    <span class='desc'>
+        {{ address.address }}
+    </span>
+    </p>
+</template>
+
+<script>
+export default {
+  props: ['address']
+}
+</script>
+```
+
+Et modifier `AddressList` de manière à utiliser notre nouveau composant
+
+```html
+<div class='' v-for="address in addresses">
+  <address-item v-bind:address="address"></address-item>
+</div>
+...
+<script type = "text/javascript" >
+import AddressItem from './AddressItem'
+
+export default {
+  props: ['addresses'],
+  components: {
+    AddressItem
+  }
+}
+</script>
+```
+
+L'affichage de votre page `myaddresses` ne devrait pas avoir changé, mais si vous utilisez [l'extension de développement de Vue.js](https://github.com/vuejs/vue-devtools) vous pourrez remarquer que chaque adresse est désormais encapsulée dans un composant propre.
 
 
 
