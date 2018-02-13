@@ -217,7 +217,8 @@ Moyens :
 
 
 --- 
-#### Principe 2 : Liens entre modèle et vue
+#### Principe 2 : Liens entre modèle et vue 
+###### Voir cours reactive programming pour plus de détails
 
 *One-way data binding*
 
@@ -231,60 +232,56 @@ Moyens :
 
 
 --- 
-### Principe 3 : Templating
+#### Principe 3 : Templating
 
+Vu au dernier semestre avec Mustache
+
+- Interpolations (texte, variables, expressions JS)
+	- {{ ok ? 'YES' : 'NO' }}
+- Directives (if, for, on)
+	- `<p v-if="seen">Now you see me</p>`
+
+--- 
+#### Principe 4 : Composants
+
+Un des principes les plus utiles.
+
+- Permet de créer des composants réutilisables à travers toute l'application (et même partageable entre projets).
+
+- Une application Vue est dotée d'un arbre de composants : un parent et plusieurs enfants.
+
+- Voir aussi : 
+	- [Polymer](https://www.polymer-project.org/)
+	- [Web components](https://www.webcomponents.org)
 
 
 --- 
-###
-
-
-
---- 
-### 
---- 
-### 
-
+## Introduction à Vue.js
 
 
 --- 
-### 
+#### Tooling
 
-
-
---- 
-### 
-
-
-
---- 
-###
-
+- npm 
+- vue-cli
+- Webpack
+- ESlint
 
 
 --- 
-### 
+#### Retour sur le TP de la semaine dernière 
+
+--- 
+## Exposés
 
 
 --- 
-### 
+#### Exposés
 
+- Tout le monde inscrit ce soir.
 
+La prochaine séance :
+- Django
+- TypeScript
 
---- 
-### 
-
-
-
---- 
-### 
-
-
-
---- 
-###
-
-
-
---- 
-### 
+-> ordre de passage en ligne demain matin.
