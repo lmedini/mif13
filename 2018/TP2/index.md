@@ -232,7 +232,7 @@ Créer un composant `AddressItem` en réutilisant le code provenant de `AddressL
     <span class='desc'>
         {{ address.address }}
     </span>
-    </p>
+  </p>
 </template>
 
 <script>
@@ -264,5 +264,99 @@ export default {
 L'affichage de votre page `myaddresses` ne devrait pas avoir changé, mais si vous utilisez [l'extension de développement de Vue.js](https://github.com/vuejs/vue-devtools) vous pourrez remarquer que chaque adresse est désormais encapsulée dans un composant propre.
 
 
+**Tester et versionner**
 
 ##### Création d'un composant AddAddress
+
+Afin de pouvoir rajouter des adresses à notre liste, nous allons créer un composant `AddAddress` qui sera un simple formulaire à 2 champs.
+
+```html
+<template>
+  <div>
+    <p><input type="text" placeholder="Nom"></p>
+    <p><input type="text" placeholder="Adresse"/></p>
+    <button>Ajouter</button>
+  </div>
+</template>
+
+<script type = "text/javascript" >
+
+export default {
+}
+</script>
+<style>
+```
+
+En l'état, le composant ne fait rien du tout. La première étape va être de lier les champs d'`input` à la propriété `data` de notre composant, de manière à ce que tout changement de valeur dans `data` soit automatiquement répercuté dans les `input` et inversement. Pour cela nous allons utiliser la directive [`v-model`](https://vuejs.org/v2/guide/forms.html).
+
+```html
+<p><input type="text" placeholder="Nom" v-model="name"></p>
+<p><input type="text" placeholder="Adresse" v-model="address"/></p>
+...
+<script type = "text/javascript" >
+
+export default {
+  data : function(){
+    return {
+      name : '',
+      address : ''
+    }
+  }
+}
+</script>
+```
+
+Vous pouvez tester que les changements dans `data` se répercutent automatiquement sur votre champ d'`input` (et inversement) en utilisant le devtool.
+
+Maintenant que la valeur des champs du formulaire sont captées, nous allons faire en sorte que le bouton `Ajouter` fonctionne. Pour cela nous allons capter l'évènement `click` de l'élément `button` et le lier à une méthode de notre composant.
+
+```html
+...
+<button v-on:click="createAddress">Ajouter</button>
+...
+<script type = "text/javascript" >
+
+export default {
+  data : function(){...},
+  methods: {
+    createAddress: function(){
+      const name = this.name
+      const address = this.address
+      this.$emit('add-address', {
+        name: name,
+        address: address,
+        favorite: true
+      })
+    }
+  }
+}
+</script>
+```
+
+La méthode `createAddress` appelée lors du click sur le bouton va se contenter d'émettre un évènement à son tour : `add-address` qui est accompagné par un objet contenant les proriétés de l'adresse que l'on vient de créer.
+
+Notre composant `AddAddress` est désormais complet. Nous pouvons donc l'ajouter au composant `MyAddresses` et de capter l'évènement `add-address` qui est émis lors du click sur le bouton.
+
+```html
+<h1>Mes adresses</h1>
+    <address-list v-bind:addresses="addresses"></address-list>
+    <add-address v-on:add-address="addAddress"></add-address>
+  </div>
+</template>
+
+<script>
+...
+  methods: {
+    addAddress : function(newAddress){
+      this.addresses.push(newAddress)
+    }
+  }
+...
+</script>
+```
+
+Désormais, lors du clic sur le bouton pour créer une adresse, une nouvelle ligne doit apparaître automatiquement dans votre liste d'adresses.
+
+**Tester et versionner**
+
+### Bonus
