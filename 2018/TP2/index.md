@@ -207,7 +207,7 @@ Cela prend la forme ci-dessous. On retrouve deux formes de templating : la boucl
   </div>
 </template>
 
-<script type = "text/javascript" >
+<script type="text/javascript" >
 
 export default {
   props: ['addresses']
@@ -219,7 +219,7 @@ export default {
 
 ##### Modularisation : création d'un composant Address
 
-
+Pour plus de modularisation et de réutilisation, on va maintenant créer un composant `Address` qui sera en charge de l'affichage d'une adresse, de son "petit" nom.
 
 
 
