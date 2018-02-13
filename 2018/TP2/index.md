@@ -73,14 +73,15 @@ Modifier `HelloWorld.vue` pour avoir une structure proche du premier écran (A) 
 ### Ajout de nouvelles routes et des composants associés
 
 Nous allons maintenant rajouter des routes correspondant à chaque écran.
-Le code suivant permet de créer une route Vue (utilisant de #).
+Le code suivant permet de créer un lien vers une route Vue (utilisant #).
 ```html
     <router-link to="/route">nom du lien</router-link>
 ```
 
-1. Créer des routes et ajouter des pointeurs vers ces routes :
+1. Déclarer des routes et ajouter des liens vers ces routes :
 - *Autour de moi* pointera sur une route `/aroundme`
 - *Ajouter* pointera sur une route `/myaddresses`
+(Vous pouvez vous aider de la [documentation officielle](https://router.vuejs.org/fr/essentials/named-routes.html))
 
 2. Créer les composants correspondants aux routes
 
