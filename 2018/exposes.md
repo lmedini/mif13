@@ -13,18 +13,18 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Hood.ie                       |               |                  |       |
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG              |                  |       |
 | Web workers                   |               |                  |       |
-| Ember                         |               |                  |       |
+| Ember                         | BERNELIN, GUTIERREZ |                  |       |
 | Angular                       | keraghel, seguin, touatioui     |           |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN |                  |       |
-| P5.js                         |               |                  |       |
+| P5.js                         | SAHIN, HONGOIS, LACOMBE |                  |       |
 | D3.js                         |  LAFOND, NUEL, MARRON             |                  |       |
-| Preprocesseurs CSS            |               |                  |       |
+| Less            |               |  DAVID, DE SOUSA, VIEIRA                |       |
 | Frameworks CSS                |               |                  |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST |                  |       |
 | IndexedDB                     |               |                  |       |
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
-| AB testing                    |               |                  |       |
+| AB testing                    | CHABOUD, CHEMIN              |                  |       |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
 | TypeScript                    |  SOW, DIALLO, VERA, MARIE MICHAEL RAJ             |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
