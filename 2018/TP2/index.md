@@ -81,6 +81,7 @@ Le code suivant permet de créer un lien vers une route Vue (utilisant #).
 1. Déclarer des routes et ajouter des liens vers ces routes :
 - *Autour de moi* pointera sur une route `/aroundme`
 - *Ajouter* pointera sur une route `/myaddresses`
+
 (Vous pouvez vous aider de la [documentation officielle](https://router.vuejs.org/fr/essentials/named-routes.html))
 
 2. Créer les composants correspondants aux routes
