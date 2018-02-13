@@ -94,5 +94,49 @@ Le code suivant permet de créer une route Vue (utilisant de #).
 4. Tester le composant, les routes, puis versioner.
 
 ### Composant *MyAddresses*
-Ce composant est plus complexe et va stocker les adresses préférées de l'usager.
+Ce composant est plus complexe, il va permettre d'ajouter et de stocker les adresses préférées de l'usager.
 
+Il est composé de 3 sous composants :
+- Un composant de liste d'adresses (qui pourra être réutilisé sur la page d'accueil).
+- Un composant affichant une adresse
+- Un composant d'ajout d'adresse
+
+##### Composant liste d'adresses
+
+Créer un composant `AddressList` qui contienne une liste d'adresse:
+
+```html
+<template>
+  <div>
+    <ul>
+        <li> Adresse 1 </li> 
+        <li> Adresse 2 </li> 
+        <li> Adresse 3 </li> 
+    </ul> 
+  </div>
+</template>
+
+<script type = "text/javascript" >
+
+export default {
+};
+</script>
+<style>
+</style>
+
+```
+
+Créer un compostant `MyAddresses` si ce n'est pas encore fait, et y importer ce composant dans `AddressList`
+
+```html
+<script>
+import AddressList from './components/AddressList';
+
+export default {
+  components: {
+    // Reference to the AddressList component
+    AddressList,
+  },
+};
+</script>
+```
