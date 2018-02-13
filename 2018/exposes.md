@@ -24,7 +24,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | IndexedDB                     |               |                  |       |
 | Frameworks de test en JS      |               |                  |       |
 | Web performance               |               |                  |       |
-| AB testing                    |               |                  |       |
+| AB testing                    | CHABOUD, CHEMIN              |                  |       |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX              |                  |       |
 | TypeScript                    |  SOW, DIALLO, VERA, MARIE MICHAEL RAJ             |                  |       |
 | JS Game Engines (ex: Crafty)  |               |                  |       |
