@@ -91,7 +91,7 @@ Le code suivant permet de créer un lien vers une route Vue (utilisant #).
 ### Composant *AroundMe*
 1. Créer un composant simple correspondant à la vue (B) des wireframes.
 
-2. Pour le moment ce composant sera constitué d'un titre et d'une iframe contenant une google map centrée sur le batîment Nautibus. 
+2. Pour le moment ce composant sera constitué d'un titre et d'une iframe contenant une Google map centrée sur le batîment Nautibus. (Cherchez "Intégrer la carte" depuis Google Maps)
 
 3. Rajouter un lien permettant de revenir à l'écran d'accueil
 
