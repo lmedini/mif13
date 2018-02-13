@@ -1,4 +1,4 @@
-## TP 2 : Template et Routeur Vue.js
+## TP 2 : Composants, Routes, et Templates Vue.js
 
 ### Présentation de l'application
 
@@ -57,22 +57,32 @@ Rajouter une description du projet.
 
 **Versioner**
 
-### Ajout de nouvelles routes
 
-1. Modifier HelloWorld.vue pour avoir une structure proche du premier écran (A).
 
+### Composant principal
+
+Les applications Vue sont structurées autour de [composants](https://vuejs.org/v2/guide/components.html) 
+
+`App.vue` est le composant parent qui contiendra les autres.
+
+Modifier `HelloWorld.vue` pour avoir une structure proche du premier écran (A) (renommer le fichier pour que son nom se rapporte à sa fonction).
+
+
+### Ajout de nouvelles routes et des composants associés
+
+Nous allons maintenant rajouter des routes correspondant à chaque écran.
 Le code suivant permet de créer une route Vue (utilisant de #).
 ```html
-    <router-link to="/aroundme">Autour de moi</router-link>
+    <router-link to="/route">nom du lien</router-link>
 ```
 
-2. Créer des routes et ajouter des pointeurs vers ces routes :
+1. Créer des routes et ajouter des pointeurs vers ces routes :
 - *Autour de moi* pointera sur une route `/aroundme`
-- *Ajouter* pointera sur une route `/adresses`
+- *Ajouter* pointera sur une route `/myaddresses`
 
-3. Créer les composants correspondants aux routes
+2. Créer les composants correspondants aux routes
 
-4. Tester que les routes fonctionent. Versioner.
+3. Tester que les routes fonctionent. Versioner.
 
 ### Composant *AroundMe*
 1. Créer un composant simple correspondant à la vue (B) des wireframes.
@@ -83,5 +93,6 @@ Le code suivant permet de créer une route Vue (utilisant de #).
 
 4. Tester le composant, les routes, puis versioner.
 
-### Composant *Mes adresses*
+### Composant *MyAddresses*
 Ce composant est plus complexe et va stocker les adresses préférées de l'usager.
+
