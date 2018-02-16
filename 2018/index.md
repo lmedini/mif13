@@ -11,22 +11,36 @@
 - CM 1 : Outils de programmation en JS — [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf)
 - CM 1 bis : Node.js [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html)
 - CM 2 : Frameworks côté client [html](cours/cm2-frameworks) — [pdf](cours/cm2-frameworks.pdf)
-- CM 3 : Mise en forme avancée
-- CM 4 : Web Storage
-- CM 5 : 
-- CM 6 : Introduction Web mobile
-- CM 6 bis : Touch events
-- CM 7 : Mashups de données / requêtage cross-domaine
-- CM 8 : Programmation réactive
-- CM 9 : Web messaging
-- CM 9 bis : WebSockets
-- CM 10 : Applications Web offline et compilation d'applications Web en applications natives (A. Tabard)
+- CM 3 : Programmation réactive [pdf](cours/cm3-reactivity.pdf)
+- CM 4 : Mise en forme avancée
+- CM 5 : Mashups de données / requêtage cross-domaine
+- CM 6 : Stockage de données 
+- CM 7 : Introduction Web mobile
+- CM 7 bis : Touch events
+- CM 8 : Progressive Web Apps
+- CM 9 : Performance
+- CM 10 : TBD
+<!-- - CM 10 : Web messaging
+- CM 10 bis : WebSockets
+ -->
 
 ## TP
 
 - [TP 1](TP1) Mise en place d'une Stack JavaScript
+- rendu 0
 - [TP 2](TP2) Introduction à Vuejs
-
+- [TP 3](TP3) Réactivité et Vue
+- TP 4 Mise en forme avancée
+- rendu 1
+- TP 5 Requêtage cross-domaine
+- TP 6 Requêtage cross-domaine
+- rendu 2
+- TP 7 Web mobile, touch et capteurs
+- TP 8 Progressive web apps
+- rendu 3
+- TP 9 Performance et packaging
+- TP 10 TBD
+- rendu 4
 
 ## Exposés
 Voir [la page dédiée aux exposés](exposes)
