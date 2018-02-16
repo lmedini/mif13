@@ -7,19 +7,19 @@
 
 ## Plan du cours
 
-- CM 0 : Présentation de l'UE — [html](cours/cm0-intro) — [pdf](cours/cm0-intro.pdf)
-- CM 1 : Outils de programmation en JS — [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf)
-- CM 1 bis : Node.js [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html)
-- CM 2 : Frameworks côté client [html](cours/cm2-frameworks) — [pdf](cours/cm2-frameworks.pdf)
-- CM 3 : Programmation réactive [pdf](cours/cm3-reactivity.pdf)
-- CM 4 : Mise en forme avancée
-- CM 5 : Mashups de données / requêtage cross-domaine
-- CM 6 : Stockage de données 
-- CM 7 : Introduction Web mobile
-- CM 7 bis : Touch events
-- CM 8 : Progressive Web Apps
-- CM 9 : Performance
-- CM 10 : TBD
+| CM 0     | 23/01 |  Présentation de l'UE    | [html](cours/cm0-intro) — [pdf](cours/cm0-intro.pdf) | A. Tabard
+| CM 1     | 23/01 |  Outils de programmation en JS | [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf) | A. Tabard
+| CM 1 bis | 23/01 |  Node.js | [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html) | A. Tabard
+| CM 2     | 13/02 |  Frameworks côté client  | [html](cours/cm2-frameworks) — [pdf](cours/cm2-frameworks.pdf) | A. Tabard
+| CM 3     | 20/02 |  Programmation réactive  | [pdf](cours/cm3-reactivity.pdf) | A. Tabard
+| CM 4     | 27/03 |  Mise en forme avancée   | | A. Tabard
+| CM 5     | 03/04 |  Requêtage cross-domaine | | L. Medini
+| CM 6     | 22/05 |  Stockage de données     | | L. Medini
+| CM 7     | 29/05 |  Introduction Web mobile | | A. Tabard
+| CM 7 bis | 29/05 |  Touch events            | | A. Tabard
+| CM 8     | 19/06 |  Progressive Web Apps    | | A. Tabard
+| CM 9     | 26/06 |  Performance             | | L. Medini
+| CM 10    | TBD   |  TBD | | 
 
 <!-- CM 10 : Web messaging -->
 <!-- CM 10 bis : WebSockets -->
@@ -54,6 +54,7 @@ Voir [la page dédiée aux exposés](exposes)
 
 # Références
 
+- [Ressources du cours (contribuez)](hack)
 - [Javascript Cheat Sheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
 - [Mozilla Developer Network (Documenation)](https://developer.mozilla.org/)
 
