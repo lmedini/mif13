@@ -20,9 +20,10 @@
 - CM 8 : Progressive Web Apps
 - CM 9 : Performance
 - CM 10 : TBD
-<!-- - CM 10 : Web messaging
-- CM 10 bis : WebSockets
- -->
+
+<!-- CM 10 : Web messaging -->
+<!-- CM 10 bis : WebSockets -->
+ 
 
 ## TP
 
