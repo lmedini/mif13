@@ -31,7 +31,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH              |                  |       |
 | Meteor                        | PEULTIER, FONTAINE, PHAM              |                  |       |
 | Rendr                         |               |                  |       |
-| A-Fame                        |               |                  |       |
+| A-Frame                        | JIMENEZ, LAFIOSCA              |                  |       |
 | [Nightwatch](http://nightwatchjs.org/) |      |                  |       |
 | [Django](https://www.djangoproject.com/)      |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH     |                  |       |
 | RequireJS                     | MOUSSA, LAM , LITIM            |                  |       |
