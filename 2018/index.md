@@ -7,7 +7,7 @@
 
 ## Plan du cours
 |          | Date  | Cours                    | Supports | Intervenant | 
-|----------|-------|--------------------------|----------|-------------| 
+| -------- | ----- | ------------------------ | -------- | ----------- | 
 | CM 0     | 23/01 |  Présentation de l'UE    | [html](cours/cm0-intro) — [pdf](cours/cm0-intro.pdf) | A. Tabard |
 | CM 1     | 23/01 |  Outils de programmation en JS | [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf) | A. Tabard |
 | CM 1 bis | 23/01 |  Node.js | [html](https://liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Nodejs.html) | A. Tabard |
