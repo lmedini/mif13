@@ -7,7 +7,7 @@
 
 ## Plan du cours
 
-|   a      | Date  | Cours                    | Supports | Intervenant | 
+|          | Date  | Cours                    | Supports | Intervenant | 
 | -------- | ----- | ------------------------ | -------- | ----------- | 
 | CM 0     | 23/01 |  Présentation de l'UE    | [html](cours/cm0-intro) — [pdf](cours/cm0-intro.pdf) | A. Tabard |
 | CM 1     | 23/01 |  Outils de programmation en JS | [html](cours/cm1-stackjs) —  [pdf](cours/cm1-stackjs.pdf) | A. Tabard |
@@ -29,21 +29,19 @@
 
 ## TP
 
-- [TP 1](TP1) Mise en place d'une Stack JavaScript
-- rendu 0
-- [TP 2](TP2) Introduction à Vuejs
-- [TP 3](TP3) Réactivité et Vue
-- TP 4 Mise en forme avancée
-- rendu 1
-- TP 5 Requêtage cross-domaine
-- TP 6 Requêtage cross-domaine
-- rendu 2
-- TP 7 Web mobile, touch et capteurs
-- TP 8 Progressive web apps
-- rendu 3
-- TP 9 Performance et packaging
-- TP 10 TBD
-- rendu 4
+| Sujet       | Date  | Thème  | Rendu  | 
+| ----------- | ----- | ------ | ------ | 
+| [TP 1](TP1) | 23/01 | Mise en place d'une Stack JavaScript | rendu 0 |
+| [TP 2](TP2) | 13/02 | Introduction à Vuejs     |         |
+| [TP 3](TP3) | 20/02 | Réactivité et Vue        |         |
+| TP 4        | 27/03 | Mise en forme avancée    | rendu 1 | 
+| TP 5        | 03/04 | Requêtage cross-domaine  |         |
+| TP 6        | 22/05 | Stockage de données      | rendu 2 | 
+| TP 7        | 29/05 | Web mobile, touch et capteurs |    |
+| TP 8        | 19/06 | Progressive web apps     | rendu 3 |
+| TP 9        | 26/06 | Performance et packaging |         |
+| TP 10       | TBD   |                          | rendu 4 |
+
 
 ## Exposés
 Voir [la page dédiée aux exposés](exposes)
