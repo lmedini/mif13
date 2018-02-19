@@ -369,7 +369,7 @@ Maintenant que nous avons des composants réutilisables, pouvez-vous afficher la
 
 
 
-## TP 3 suite
+## TP3 suite
 
 On veut maintenant afficher la liste d'adresses sur la page d'accueil pour faciliter la saisie des itinéraires.
 
@@ -492,4 +492,23 @@ Cette structure correspond à une interaction en deux temps :
 > 1. Les stores Vuex sont réactifs. Quand les composants Vue y récupèrent l'état, ils se mettront à jour de façon réactive et efficace si l'état du store a changé.
 > 
 > 2. Vous ne pouvez pas muter directement l'état du store. La seule façon de modifier l'état d'un store est d'acter (« commit ») explicitement des mutations. Cela assure que chaque état laisse un enregistrement traçable, et permet à des outils de nous aider à mieux appréhender nos applications.
+
+
+### Ré-implémentation de la gestion des adresses
+
+En s'aidant de la [documentation](https://vuex.vuejs.org/fr/core-concepts.html) et de l'exemple de [panier d'achat](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart)
+
+
+### Extension
+
+
+#### Suppression des adresses
+
+Ajouter un bouton supprimer au composant `AddressItem` qui effecture la suppression de l'address donnée du store.
+
+#### 2e composant utilisant les adresses
+
+Rajouter un nouveau composant qui affiche la liste des adresses sur la page de garde.
+
+
 

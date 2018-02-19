@@ -33,7 +33,7 @@
 | ----------- | ----- | ------ | ------ | 
 | [TP 1](TP1) | 23/01 | Mise en place d'une Stack JavaScript | rendu 0 |
 | [TP 2](TP2) | 13/02 | Introduction à Vuejs     |         |
-| [TP 3](TP3) | 20/02 | Réactivité et Vue        |         |
+| [TP 3](TP2/#TP3-suite) | 20/02 | Réactivité et Vue        |         |
 | TP 4        | 27/03 | Mise en forme avancée    | rendu 1 | 
 | TP 5        | 03/04 | Requêtage cross-domaine  |         |
 | TP 6        | 22/05 | Stockage de données      | rendu 2 | 
