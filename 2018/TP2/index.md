@@ -365,3 +365,131 @@ Désormais, lors du clic sur le bouton pour créer une adresse, une nouvelle lig
 
 ### Bonus
 Maintenant que nous avons des composants réutilisables, pouvez-vous afficher la liste des adresses enregistrées dans le composant `HelloWorld` sous le titre "Mes adresses" ?
+
+
+
+
+## TP 3 suite
+
+On veut maintenant afficher la liste d'adresses sur la page d'accueil pour faciliter la saisie des itinéraires.
+
+Cela pose problème : on veut faire communiquer deux composants qui n'ont pas une relation parent-enfant. 
+De manière ad-hoc, il serait possible d'utiliser un [bus de communication simple](https://fr.vuejs.org/v2/guide/components.html#Communication-non-parent-enfant). 
+Toutefois pour faire les choses de manière plus générique, nous allons utiliser [vuex](https://vuex.vuejs.org/) la bibliothèque de gestion d'états de Vue (comparable à Redux pour React).
+
+
+### Démarrage avec Vuex
+Vuex fournit un espace centralisé pour gérer l'état des composants de votre application, et ainsi faciliter leur partage.
+
+Commençons par ajouter vuex à notre projet
+
+```sh
+npm install vuex --save
+```
+
+Maintenant nous allons créer un `store` en suivant la [structure de projet suivante](https://vuex.vuejs.org/fr/structure.html):
+ 
+```
+├── index.html
+├── main.js
+├── App.vue
+├── api
+│   └── ... # abstraction pour faire des requêtes par API
+├── components
+│   └── ...
+└── store
+    ├── index.js          # là où l'on assemble nos modules et exportons le store
+    ├── actions.js        # actions racine   - ne pas créer pour le moment
+    ├── mutations.js      # mutations racine - ne pas créer pour le moment
+    └── modules
+        └── addresses.js  # module de gestion des adresses
+```
+
+
+Rajouter une référence au store dans main.js (importer correctement le store) :
+```js
+/* eslint-disable no-new */
+new Vue({
+  ...
+  store,
+  ...
+})
+```
+
+
+Le fichier index.js du store ressemblera à cela : 
+
+```js
+import Vue from 'vue'
+import Vuex from 'vuex'
+import addresses from './modules/addresses'
+
+Vue.use(Vuex)
+
+export default new Vuex.Store({
+  modules: {
+    addresses
+  }
+})
+```
+
+Créer un fichier `modules/addresses.js` ayant la structure suivante :
+
+```js
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+const state = {
+  addresses: [],
+  newAddress: ''
+}
+
+const getters = {
+  newaddress: state => state.newAddress,
+  addresses: state => state.addresses
+}
+
+const mutations = {
+  get_address (state, address) {
+    state.newAddress = address
+  },
+  add_address (state) {
+    state.addresses.push({
+      address: state.newAddress
+    })
+  }
+  ...
+}
+
+const actions = {
+  setcurrentaddress ({commit}, address) {
+    commit('get_address', address)
+  },
+  addaddress ({commit}) {
+    commit('add_address')
+  }
+  ...
+}
+
+export default {
+  state,
+  getters,
+  actions,
+  mutations
+}
+```
+
+Cette structure correspond à une interaction en deux temps : 
+
+1. En cas de changement dans l'un des deux champs d'adresse (nom/adresse) le changement est poussé sur `newAddress`. 
+2. Si le bouton `Ajouter` est cliqué alors on pousse le changement sur la liste d'adresses.
+
+
+
+[Deux principes importants](https://vuex.vuejs.org/fr/getting-started.html) à retenir sur les stores vuex:
+> 1. Les stores Vuex sont réactifs. Quand les composants Vue y récupèrent l'état, ils se mettront à jour de façon réactive et efficace si l'état du store a changé.
+> 
+> 2. Vous ne pouvez pas muter directement l'état du store. La seule façon de modifier l'état d'un store est d'acter (« commit ») explicitement des mutations. Cela assure que chaque état laisse un enregistrement traçable, et permet à des outils de nous aider à mieux appréhender nos applications.
+
