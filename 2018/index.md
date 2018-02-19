@@ -56,7 +56,7 @@ Voir [la page dédiée aux exposés](exposes)
 
 - [Ressources du cours (contribuez)](hack)
 - [Javascript Cheat Sheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
-- [Mozilla Developer Network (Documenation)](https://developer.mozilla.org/)
+- [Mozilla Developer Network (Documentation)](https://developer.mozilla.org/)
 
 
 ## Calendrier
