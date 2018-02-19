@@ -39,7 +39,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | PixiJS                        | EYMARD, MICHON, ROBIN, VALLET | |      |
 | PlayCanvas (GE)               | CASTANEDA, CREVITS, DESPAIGNE              |                  |       |
 | Phaser                        | BOURDON, CHAY, PRADELLE   |                  |       |
-| ...                           |               |                  |       |
+| Progressive Web App           | LAINCEUR, DJEMAOUNE       |                  |       |
 
 
 <!-- Merci de maintenir un semblant de mise en page sur le tableau -->
