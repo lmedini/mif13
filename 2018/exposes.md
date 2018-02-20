@@ -9,30 +9,20 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 
 | Sujets                        | Noms                                  | Date de passage  | Lien  |
 | ----------------------------- |:-------------------------------------:| ---------------- | ----- |
-<!-- | Firebase                 | nom 1, nom 2, nom 3                   |                  |       | -->
-<!-- | Hood.ie                  |                                       |                  |       | -->
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG   |    26/06         |       |
-<!-- | Web workers              |                                       |                  |       | -->
 | Ember                         | BERNELIN, GUTIERREZ, -place vacante-  |    27/03         |       |
 | Angular                       | keraghel, seguin, touatioui           |    03/04         |       |
 | React                         | CHAPUT, HERAUT, SACCHARIN, BONI       |    29/05         |       |
 | P5.js                         | SAHIN, HONGOIS, LACOMBE               |    22/05         |       |
 | D3.js                         | LAFOND, NUEL, MARRON                  |    22/05         |       |
 | Less                          | DAVID, DE SOUSA, VIEIRA               |    27/03         |       |
-<!-- | Frameworks CSS                |               |                  |       | -->
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST            |                  |       |
-<!-- | IndexedDB                     |               |                  |       | -->
-<!-- | Frameworks de test en JS      |               |                  |       | -->
-<!-- | Web performance               |               |                  |       | -->
 | AB testing                    | CHABOUD, CHEMIN, -place vacante-      |   19/06          |       |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX                |   26/06          |       |
 | TypeScript                    |  SOW, DIALLO, VERA, MARIE MICHAEL RAJ |   29/05          |       |
-<!-- | JS Game Engines (ex: Crafty)  |               |                  |       | -->
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH           |                  |       |
 | Meteor                        | PEULTIER, FONTAINE, PHAM              |   03/04          |       |
-<!-- | Rendr                         |               |                  |       | -->
 | A-Frame                        | JIMENEZ, LAFIOSCA, -place vacante-   |   22/05          |       |
-<!-- | [Nightwatch](http://nightwatchjs.org/) |                         |                  |       | -->
 | [Django](https://www.djangoproject.com/)      |  BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH |   20/02    |       |
 | RequireJS                     | MOUSSA, LAM , LITIM                   |   19/06          |       |
 | CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE       |   29/06          |       |
@@ -41,6 +31,17 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Phaser                        | BOURDON, CHAY, PRADELLE               |   29/06          |       |
 | Progressive Web App           | LAINCEUR, DJEMAOUNE, -place vacante-  |   19/06          |       |
 
+
+<!-- | Firebase                      | nom 1, nom 2, nom 3 |            |       | -->
+<!-- | Hood.ie                       |               |                  |       | -->
+<!-- | Web workers                   |               |                  |       | -->
+<!-- | Frameworks CSS                |               |                  |       | -->
+<!-- | IndexedDB                     |               |                  |       | -->
+<!-- | Frameworks de test en JS      |               |                  |       | -->
+<!-- | Web performance               |               |                  |       | -->
+<!-- | JS Game Engines (ex: Crafty)  |               |                  |       | -->
+<!-- | [Nightwatch](http://nightwatchjs.org/) |      |                  |       | -->
+<!-- | Rendr                         |               |                  |       | -->
 
 <!-- Merci de maintenir un semblant de mise en page sur le tableau -->
 
