@@ -450,9 +450,9 @@ const getters = {
 }
 
 const mutations = {
-  ADD_ADDRESS (state) {
+  ADD_ADDRESS (state, address) {
     state.addresses.push({
-      address: state.newAddress
+      address
     })
   }
 }
