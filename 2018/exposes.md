@@ -23,13 +23,17 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH           |   29/06          |       |
 | Meteor                        | PEULTIER, FONTAINE, PHAM              |   03/04          |       |
 | A-Frame                       | JIMENEZ, LAFIOSCA, -place vacante-    |   22/05          |       |
-| [Django](https://www.djangoproject.com/) | BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH | 20/02 |   |
+| [Django](https://www.djangoproject.com/) | BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH | 20/02 |[Diapo](https://docs.google.com/presentation/d/1IVOVZdvF68tM90u75pcHQZ1S_smxvVn2hLf4em7HXbA)    |
 | RequireJS                     | MOUSSA, LAM , LITIM                   |   19/06          |       |
 | CreateJS                      | ABDESSALEM, AIFA, CAN, DOUCOURE       |   29/06          |       |
 | PixiJS                        | EYMARD, MICHON, ROBIN, VALLET         |   29/06          |       |
 | PlayCanvas (GE)               | CASTANEDA, CREVITS, DESPAIGNE         |   29/06          |       |
 | Phaser                        | BOURDON, CHAY, PRADELLE               |   29/06          |       |
 | Progressive Web App           | LAINCEUR, DJEMAOUNE, -place vacante-  |   19/06          |       |
+
+Ressources intéressantes :  
+[2018 Developer Skills Report by HackerRank](https://research.hackerrank.com/developer-skills/2018/)  
+[Java VS Python sur similartech : site de comparaison de technologies web](https://www.similartech.com/compare/java-vs-python)   
 
 
 <!-- | Firebase                      | nom 1, nom 2, nom 3 |            |       | -->
