@@ -496,7 +496,7 @@ Cette structure correspond à une interaction en deux temps :
 
 ### Ré-implémentation de la gestion des adresses
 
-En s'aidant de la [documentation](https://vuex.vuejs.org/fr/core-concepts.html) et de l'exemple de [panier d'achat](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart)
+En s'aidant de la [documentation](https://vuex.vuejs.org/fr/core-concepts.html) et de l'exemple de [panier d'achat](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart) ré-implémenter la gestion des adresses pour extraire la gestion de l'état des composants, et la basculer dans le store.
 
 
 ### Extension
@@ -509,6 +509,8 @@ Ajouter un bouton supprimer au composant `AddressItem` qui effecture la suppress
 #### 2e composant utilisant les adresses
 
 Rajouter un nouveau composant qui affiche la liste des adresses sur la page de garde.
+
+
 
 
 
