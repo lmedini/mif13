@@ -510,7 +510,7 @@ Pas mal de debugging / troubleshooting est à prévoir. Utiliser les developer t
 Nettoyer au maximum, l'évaluation du TP prendra en compte la présence absence de code surperflu après refactoring.
 
 
-### Extension
+### Étendre l'application (d'ici à la prochaine séance)
 
 
 #### Suppression des adresses
