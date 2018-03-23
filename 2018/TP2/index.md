@@ -535,12 +535,14 @@ Nous allons utiliser [Vuetify](https://vuetifyjs.com/) qui offre des composants 
 ### Mise en place de Vuetify
 
 1. Installer `vuetify` :
+
 ```bash
 $ npm install vuetify --save
 ```
 
 
 2. Dans votre `main.js` ou `index.js` ajouter la dépendance à vuetify :
+
 ```js
 import Vue from 'vue'
 import Vuetify from 'vuetify'
@@ -549,11 +551,13 @@ Vue.use(Vuetify)
 ```
 
 Et importer le css de base de Vuetify : 
+
 ```js
 import 'vuetify/dist/vuetify.min.css'
 ```
 
 3. Dans votre fichier index.html, importer les polices de caractères et les icones Material
+
 ```html
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
 ```
@@ -562,6 +566,7 @@ import 'vuetify/dist/vuetify.min.css'
 Nous allons maintenant nous inspirer d'un [layout simple](https://vuetifyjs.com/en/examples/layouts/baseline) pour restructurer l'interface de l'application.
 
 1. L'élément racine de votre application doit être une `v-app` :
+
 ```xml
  <v-app id="Votre ID racine">
  ...
