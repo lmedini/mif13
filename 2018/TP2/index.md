@@ -534,14 +534,14 @@ Nous allons utiliser [Vuetify](https://vuetifyjs.com/) qui offre des composants 
 
 ### Mise en place de Vuetify
 
-1. Installer `vuetify` :
+##### 1. Installer `vuetify` :
 
 ```bash
 $ npm install vuetify --save
 ```
 
 
-2. Dans votre `main.js` ou `index.js` ajouter la dépendance à vuetify :
+##### 2. Dans votre `main.js` ou `index.js` ajouter la dépendance à vuetify :
 
 ```js
 import Vue from 'vue'
@@ -556,7 +556,7 @@ Et importer le css de base de Vuetify :
 import 'vuetify/dist/vuetify.min.css'
 ```
 
-3. Dans votre fichier index.html, importer les polices de caractères et les icones Material
+##### 3. Dans votre fichier index.html, importer les polices de caractères et les icones Material
 
 ```html
 <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
@@ -565,7 +565,7 @@ import 'vuetify/dist/vuetify.min.css'
 ### Refactoring de l'application
 Nous allons maintenant nous inspirer d'un [layout simple](https://vuetifyjs.com/en/examples/layouts/baseline) pour restructurer l'interface de l'application.
 
-1. L'élément racine de votre application doit être une `v-app` :
+##### 1. L'élément racine de votre application doit être une `v-app` :
 
 ```xml
  <v-app id="Votre ID racine">
@@ -573,14 +573,14 @@ Nous allons maintenant nous inspirer d'un [layout simple](https://vuetifyjs.com/
  </v-app>
 ```
 
-2. Créer un menu de navigation dans l'application
+##### 2. Créer un menu de navigation dans l'application
 
 - Soit sous la forme d'une [navigation en bas de page](https://vuetifyjs.com/en/components/bottom-navigation).
 - Soit sous la forme d'un [tiroir](https://vuetifyjs.com/en/components/navigation-drawers), (voir l'exemple du layout qui l'intègre).
 
 Dans un cas comme dans l'autre créer votre propre composant qui incorpore l'une ou l'autre des façons de naviguer dans l'application.
 
-3. Revoir les différents éléments de l'application
+##### 3. Revoir les différents éléments de l'application
 
 Reprendre chacun de vos composants et utiliser les composants `vuetify` de manière appropriée : champs texte, listes, etc.
 
