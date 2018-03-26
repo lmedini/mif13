@@ -578,11 +578,15 @@ Nous allons maintenant nous inspirer d'un [layout simple](https://vuetifyjs.com/
 - Soit sous la forme d'une [navigation en bas de page](https://vuetifyjs.com/en/components/bottom-navigation).
 - Soit sous la forme d'un [tiroir](https://vuetifyjs.com/en/components/navigation-drawers), (voir l'exemple du layout qui l'intègre).
 
-Dans un cas comme dans l'autre créer votre propre composant qui incorpore l'une ou l'autre des façons de naviguer dans l'application.
+Créer votre propre composant qui incorpore l'une ou l'autre des façons de naviguer dans l'application. Ce composant reprendra les éléments de routing (actuellement à la page d'accueil de votre application), il devra donc être intégré à votre composant racine qui intègre `vue-router`.
+
+NB: vous pouvez utiliser les [icônes Material](https://material.io/icons/) directement depuis vuetify avec `<v-icon>nom</v-icon>`.
 
 ##### 3. Revoir les différents éléments de l'application
 
 Reprendre chacun de vos composants et utiliser les composants `vuetify` de manière appropriée : champs texte, listes, etc.
+
+Mettez en place une grille responsive qui adapte la taille et le positionnement des éléments à votre écran.
 
 
 ## Rendu
@@ -594,3 +598,6 @@ Reprendre chacun de vos composants et utiliser les composants `vuetify` de mani�
 2. Créer une branche `rendu-tp4`, vous continuerez à travailler sur le `master` dans les TP à venir. **Toute erreur sur la gestion des branches sera pénalisée.**
 
 3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers la branche `rendu-tp4` qui permet de la cloner.
+
+
+<!-- ### Barême indicatif -->
