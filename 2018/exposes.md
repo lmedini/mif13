@@ -17,7 +17,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | D3.js                         | LAFOND, NUEL, MARRON                  |   22/05          |       |
 | Less                          | DAVID, DE SOUSA, VIEIRA               |   27/03          |       |
 | Web RTC                       | GIBERT, LEFEBVRE, PALABOST            |   03/04          |       |
-| AB testing                    | CHABOUD, CHEMIN, -place vacante-      |   19/06          |       |
+| AB testing                    | CHABOUD, CHEMIN, AUGUSTIN.            |   19/06          | |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX                |   26/06          |       |
 | TypeScript                    | SOW, DIALLO, VERA, MARIE MICHAEL RAJ  |   29/05          |       |
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH           |   29/06          |       |
