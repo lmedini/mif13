@@ -600,22 +600,25 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers la branche `rendu-tp4` qui permet de la cloner.
 
 
-### Barême indicatif
+### Barême 
+1 point par élément sauf indiqué différemment (à titre indicatif). 
 
 - README (voir plus haut)
 - Rendu propre via Tomuss et la branche `rendu-tp4`
+- Structure de projet Vue et structure sur la forge propre (bon usage de `.gitignore`)
 - npm run dev lance le projet sur une machine "vierge" (à défaut toutes les dépendances globales sont explicitées dans le README)
 - Routeur implémenté, et tous les liens vers les vues passent par des `<routeur-link>`
 - Tous les éléments sont des composants
-- Les composants ont le bon niveau de responsabilité (en particulier `MyAddresses` et les composants enfant)
+- Les composants ont le bon niveau de responsabilité (en particulier `MyAddresses` et ses composants enfants)
 - Implémentation du store 
-  - Ajout d'adresses
-  - Suppression d'adresses
+- Ajout d'adresses
+- Suppression d'adresses
 - Réactivité implémentée (en cas de modification du store les éléments graphiques se mettent à jour)
-  - Compteur d’adresses
+- Compteur d’adresses
 - Implémentation du système de navigation
 - Utilisation des éléments vuetify
 - Positionnement d'éléments suivant une grille responsive
 - Qualité de l'exécution (code propre, qualité d'usage de l'application)
 - Travail réparti au sein du binome : push équitables sur la forge (nombre de commits, nombre de lignes, etc.)
 - Réponses au questionnaire du TP2 (2 points)
+
