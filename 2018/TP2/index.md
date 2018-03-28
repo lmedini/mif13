@@ -591,13 +591,31 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 
 ## Rendu
 
-À rendre pour lundi 2 avril à 23h59. 
+À rendre pour le mercredi 4 avril à 23h59. 
 
-1. Penser à mettre à jour votre README pour inclure : les étudiants, les instruction de build, les dépendances implicites (i.e. les choses installées en global), toute autre chose facilitant la compréhension du projet par le correcteur.
+1. Penser à mettre à jour votre README pour inclure : les identifiants du binome (n° étudiant, nom, prénom), les instruction de build, les dépendances implicites (i.e. les choses installées en global), toute autre chose facilitant la compréhension du projet par le correcteur.
 
 2. Créer une branche `rendu-tp4`, vous continuerez à travailler sur le `master` dans les TP à venir. **Toute erreur sur la gestion des branches sera pénalisée.**
 
 3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers la branche `rendu-tp4` qui permet de la cloner.
 
 
-<!-- ### Barême indicatif -->
+### Barême indicatif
+
+- README (voir plus haut)
+- Rendu propre via Tomuss et la branche `rendu-tp4`
+- npm run dev lance le projet sur une machine "vierge" (à défaut toutes les dépendances globales sont explicitées dans le README)
+- Routeur implémenté, et tous les liens vers les vues passent par des `<routeur-link>`
+- Tous les éléments sont des composants
+- Les composants ont le bon niveau de responsabilité (en particulier `MyAddresses` et les composants enfant)
+- Implémentation du store 
+  - Ajout d'adresses
+  - Suppression d'adresses
+- Réactivité implémentée (en cas de modification du store les éléments graphiques se mettent à jour)
+  - Compteur d’adresses
+- Implémentation du système de navigation
+- Utilisation des éléments vuetify
+- Positionnement d'éléments suivant une grille responsive
+- Qualité de l'exécution (code propre, qualité d'usage de l'application)
+- Travail réparti au sein du binome : push équitables sur la forge (nombre de commits, nombre de lignes, etc.)
+- Réponses au questionnaire du TP2 (2 points)
