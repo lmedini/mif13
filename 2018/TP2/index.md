@@ -599,11 +599,12 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 
 3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss
 
-4. Reporter le lien vers votre dépôt git qui permette de le cloner  `forge.univ-lyon1.fr:idutilisateur:projet.git`
+4. Reporter le lien vers votre dépôt git qui permette de le cloner  facilement, au format suivant : `forge.univ-lyon1.fr:idutilisateur:projet.git`
 
 La commande utilisée pour cloner les projets sera :  
+
 ```
-git clone -b rendu-tp4 git@forge.univ-lyon1.fr:idutilisateur:projet.git
+git clone -b rendu-tp4 git@LIEN
 ```
 
 
