@@ -597,7 +597,10 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 
 2. Créer une branche `rendu-tp4`, vous continuerez à travailler sur le `master` dans les TP à venir. **Toute erreur sur la gestion des branches sera pénalisée.**
 
-3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers la branche `rendu-tp4` qui permet de la cloner.
+3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers votre dépôt git qui permet de la cloner (type `forge.univ-lyon1.fr:idutilisateur:projet.git`) 
+
+** La commande utilisée pour cloner les projets sera :   
+`git clone -b rendu-tp4 git@forge.univ-lyon1.fr:idutilisateur:projet.git` **
 
 
 ### Barême 
@@ -615,10 +618,10 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 - Suppression d'adresses
 - Réactivité implémentée (en cas de modification du store les éléments graphiques se mettent à jour)
 - Compteur d’adresses
-- Implémentation du système de navigation
+- Implémentation du système de navigation (menu ou navra)
 - Utilisation des éléments vuetify
 - Positionnement d'éléments suivant une grille responsive
-- Qualité de l'exécution (code propre, qualité d'usage de l'application)
+- Qualité de l'exécution (code propre, ESLint ne soulève pas d'erreurs, qualité d'usage de l'application)
 - Travail réparti au sein du binome : push équitables sur la forge (nombre de commits, nombre de lignes, etc.)
 - Réponses au questionnaire du TP2 (2 points)
 
