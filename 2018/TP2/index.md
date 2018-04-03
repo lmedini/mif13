@@ -597,10 +597,14 @@ Mettez en place une grille responsive qui adapte la taille et le positionnement 
 
 2. Créer une branche `rendu-tp4`, vous continuerez à travailler sur le `master` dans les TP à venir. **Toute erreur sur la gestion des branches sera pénalisée.**
 
-3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss, ainsi que le lien vers votre dépôt git qui permet de la cloner (type `forge.univ-lyon1.fr:idutilisateur:projet.git`) 
+3. Reporter le numéro Tomuss (pas de 'p' devant) de votre binome sur Tomuss
 
-** La commande utilisée pour cloner les projets sera :   
-`git clone -b rendu-tp4 git@forge.univ-lyon1.fr:idutilisateur:projet.git` **
+4. Reporter le lien vers votre dépôt git qui permette de le cloner  `forge.univ-lyon1.fr:idutilisateur:projet.git`
+
+La commande utilisée pour cloner les projets sera :  
+```
+git clone -b rendu-tp4 git@forge.univ-lyon1.fr:idutilisateur:projet.git
+```
 
 
 ### Barême 
