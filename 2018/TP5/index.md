@@ -47,7 +47,7 @@ Dans votre script rajouter une propriété `search` dans `data`. Et implémenter
 data () {
  return {
  search: null,
-},
+}},
 watch: {
    search (val) { 
     // val est la valeur du champ texte
