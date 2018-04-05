@@ -73,6 +73,18 @@ Vous pouvez récupérer la liste des suggestions proposées par Navitia dans une
 
  ![exemple]({{"screen_autocomplete.PNG"}})
 
+Les suggestions retournées par l'API sont sous la forme d'un tableau d'objets Javascript. Si vous essayez de les afficher tels quels dans l'autocomplete, vous ne verrez affiché que `[Object object]` à chaque ligne. Pour obtenir une affichage plus élégant tel que dans l'exemple ci-dessus, vous allez devoir utiliser des [scoped slots](https://vuetifyjs.com/en/components/selects#example-scoped-slots) pour customiser votre affichage.
+
+Les templates suivant permettent un affichage basique :
+
+```js
+<template slot="selection" slot-scope="data">
+  {{data.item.name}}
+</template>
+<template slot="item" slot-scope="data">
+  {{data.item.name}}
+</template>
+```
 
 ##### Stockage dans le store
 
