@@ -79,10 +79,10 @@ Les templates suivant permettent un affichage basique :
 
 ```js
 <template slot="selection" slot-scope="data">
-  {{data.item.name}}
+  {{ "{{data.item.name "}}}}
 </template>
 <template slot="item" slot-scope="data">
-  {{data.item.name}}
+  {{ "{{data.item.name "}}}}
 </template>
 ```
 
