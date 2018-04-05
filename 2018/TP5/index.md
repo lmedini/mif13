@@ -9,34 +9,115 @@ Nous allons continuer le développement de l’application de conseil en mobilit
 2. Récupérer une clé (token) pour que votre application puisse requête l’API [https://www.navitia.io/profile](https://www.navitia.io/profile).
 3. [Tester l’api](http://doc.navitia.io/#third-step) depuis votre navigateur. Par exemple en accédant à [la liste des lignes](https://api.navitia.io/v1/coverage/sandbox/lines) disponibles dans le bac à sable de Navitia. Ou à un trajet entre deux points à Paris : [https://api.navitia.io/v1/coverage/sandbox/journeys?from=2.3749036%3B48.8467927&to=2.2922926%3B48.8583736&](http://canaltp.github.io/navitia-playground/play.html?request=https%3A%2F%2Fapi.navitia.io%2Fv1%2Fcoverage%2Fsandbox%2Fjourneys%3Ffrom%3D2.3749036%3B48.8467927%26to%3D2.2922926%3B48.8583736&token=3b036afe-0110-4202-b9ed-99718476c2e0)
 
-4. Navitia utilise une [Basic authentication](http://doc.navitia.io/#authentication). Il suffit d’utiliser votre token comme nom d’utilisateur.
+4. Navitia utilise une [Basic authentication](http://doc.navitia.io/#authentication). Il suffit d’utiliser votre token comme nom d’utilisateur. *NB : il n'est pas possible d'utiliser votre token directement dans l'URL, les navigateurs modernes bloquent ce procédé à la sécurité douteuse. Il vous faudra ajouter votre token dans un un champ `Auhtorisation` dans les headers de votre requête.*
 
+5. Tester des requêtes de base depuis [Postman](https://www.getpostman.com/) ou les outils de développement de votre navigateur.
 
 ### Requêtage depuis votre application
 
-Nous allons implémenter deux types de requêtes : 
+Nous allons implémenter plusieurs requêtes vers l'API de navitia et créer des composants associées.
 
+##### Composant de saisie de lieu (Départ/Arrivée)
 
-1. des requêtes pour obtenir les propositions de trajets souhaités.
-2. des requêtes lors de changements sur le champs de formulaire pour faciliter la saisie avec de l’auto-complétion.
+Pour le lieu de départ et le lieu d’arrivée créer un nouveau composant : un `<v-select>` disponible avec la bibliothèque Vuetify. Afin de faciliter la saisie de lieu, ce composant proposera une autocomplétion tirant parti de l'API Navitia.
 
+La création d'un `<v-select>` permettant l'autocompletion est présentée [avec cet exemple](https://vuetifyjs.com/en/components/selects#example-autocomplete).
 
+Votre `<v-select>` pourrait ressembler à ceci :
 
-#### Trajets
-
-1. Pour le lieu de départ et le lieu d’arrivée faire deux requêtes sur [https://api.navitia.io/v1/coverage/fr-se/places?q=lieu](https://api.navitia.io/v1/coverage/fr-se/places?q=lieu).
-2. Afficher la liste des lieux correspondant à la requête et laisser l’utilisateur choisir celui qui lui convient (pour le départ et l’arrivé).
-
-3. Récupérer l’identifiant correspondant aux lieux de départ et d’arrivé, et effectuer une requête pour demander les trajets. Par exemple pour un trajet de l’Opéra à la Doua à Lyon:
-
+```xml
+<v-select
+ v-bind:label="label"
+ autocomplete
+ v-bind:loading="loading"
+ v-bind:items="items"
+ return-object
+ v-bind:search-input.sync="search"
+ v-bind:filter="noFilter"
+ v-model="select"
+ >
+</v-select>
 ```
-https://api.navitia.io/v1/coverage/fr-se/journeys?from=4.8363608;45.7675475&to=stop_area:DGL:SA:S10654
+
+Lors de changements sur l'élement la fonction `watch` est appelée la propriété suivante de v-select :`v-bind:search-input.sync="search"`
+
+Dans votre script rajouter une propriété `search` dans `data`. Et implémenter une fonction `search()` déclenchée lors d'un changement dans le champ v-select.`
+
+```js
+data () {
+ return {
+ search: null,
+},
+watch: {
+   search (val) { 
+    // val est la valeur du champ texte
+    val   &&   this.querySelections(val)
+  }
+}
 ```
- 
-
-#### Auto-complétion
-
-Cette partie consiste à reprendre les points 1 et 2 précédents en travaillant une vue qui affiche dynamiquement les lieux lors de changement dans les champs de formulaire.
+Rajouter une méthode `querySelections(val)` à votre script qui va requêter navitia.io
 
 
+##### Requêtage de l'API `places`
 
+La méthode `querySelections(val)` exécutera une requête vers l'API de Navitia à chaque changement dans le select.
+
+La requête à exécuter devrait être sous cette forme :  [http://api.navitia.io/v1/coverage/fr-se/places?q=lieu](http://api.navitia.io/v1/coverage/fr-se/places?q=lieu)
+
+Vous pouvez récupérer la liste des suggestions proposées par Navitia dans une propriété `items` de votre composant. Si le binding a été fait correctement dans votre `<v-select>` (`
+ v-bind:items="items"`), le champ de saisie devrait vous proposer les résultats de la requête en autocompletion.
+
+
+##### Stockage dans le store
+
+Enregistrer le lieu de départ et d'arrivée dans le store. La liaison entre un select et le store est expliquée dans [cette partie de la documentation de Vuex](https://vuex.vuejs.org/fr/forms.html)
+
+Lors de la déclaration de l'élément `<v-select>` nous avons spécifié que le select utilisait en tant que v-model la propriété select. Cette propriété select est une propriété calculée ([cf documentation sus-citée](https://vuex.vuejs.org/fr/forms.html)):
+```
+computed: {
+ select: {
+     get () {
+         return   this.$store.getters[this.storeProperty]
+    },
+     set (v) {
+         this.$store.dispatch(this.storeProperty, v)
+    }
+  }
+},
+```
+
+Pour faciliter la réutilisation du composant LocationTextField que nous venons de créer nous pouvons déclarer un props `storeProperty` qui permettra de mettre à jour le bon élément du store. *D'autres approches sont possibles*
+```js
+props: ['label', 'storeProperty'],
+```
+L'utilisation du composant peut alors se faire de la manière suivante :
+```xml
+<location-text-field label="Départ" storeProperty="departure"></location-text-field>
+```
+
+##### Requêtage de l'itinéraire
+
+[Rajouter un bouton](https://vuetifyjs.com/en/components/buttons) "Rechercher" à votre formulaire (dans le composant parent) si ce n'est déjà fait. Le clic sur ce bouton provoquera une requête vers [l'API `journeys`](http://doc.navitia.io/#journeys) de Navitia :
+`http://api.navitia.io/v1/coverage/fr-se/journeys?from=4.8363608;45.7675475&to=stop_area:DGL:SA:S10654`
+
+Cette requête se fera sur le même mode que la précédente.
+
+##### Affichage des itinéraires
+
+Créer un composant dédié à l'affichage des itinéraires. Ce composant utilisera une [v-list](https://vuetifyjs.com/en/components/lists). 
+
+Ce composant suivra une liste `journeys` store pour modifier ses propositions :
+
+```js
+<script>
+export default {
+  computed: {
+    journeys: function () {
+      return this.$store.getters.journeys
+    }
+  }
+}
+</script>
+```
+
+Utiliser les valeurs de `journeys` pour peupler la liste via un `v-for`. S'appuyer sur les exemples de documentation de [v-list](https://vuetifyjs.com/en/components/lists). 
