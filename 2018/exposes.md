@@ -11,7 +11,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | ----------------------------- |:-------------------------------------:| ---------------- | ----- |
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG   |   26/06          |       |
 | Ember                         | BERNELIN, GUTIERREZ, -place vacante-  |   27/03          |       |
-| Angular                       | keraghel, seguin, touatioui           |   03/04          |       |
+| Angular                       | keraghel, seguin, touatioui           |   03/04          |[Angular](https://docs.google.com/presentation/d/1IvAQNlkoa8PQmyCQpsnwpEizZdNVLc7CtrZZm0mA1G8/edit#slide=id.p)|
 | React                         | CHAPUT, HERAUT, SACCHARIN, BONI       |   29/05          |       |
 | P5.js                         | SAHIN, HONGOIS, LACOMBE               |   22/05          |       |
 | D3.js                         | LAFOND, NUEL, MARRON                  |   22/05          |       |
