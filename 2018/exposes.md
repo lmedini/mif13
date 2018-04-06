@@ -16,7 +16,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | P5.js                         | SAHIN, HONGOIS, LACOMBE               |   22/05          |       |
 | D3.js                         | LAFOND, NUEL, MARRON                  |   22/05          |       |
 | Less                          | DAVID, DE SOUSA, VIEIRA               |   27/03          |       |
-| Web RTC                       | GIBERT, LEFEBVRE, PALABOST            |   03/04          |       |
+| Web RTC                       | GIBERT, LEFEBVRE, PALABOST            |   03/04          |[Diapo](https://drive.google.com/file/d/16ntywqpL2gbYif-1_z6_B8O02xLvSu-q/view?usp=sharing)|
 | AB testing                    | CHABOUD, CHEMIN, AUGUSTIN.            |   19/06          | |
 | WebAssembly                   | CURRANT, GRANDY, GUEUX                |   26/06          |       |
 | TypeScript                    | SOW, DIALLO, VERA, MARIE MICHAEL RAJ  |   29/05          |       |
