@@ -10,7 +10,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | Sujets                        | Noms                                  | Date de passage  | Lien  |
 | ----------------------------- |:-------------------------------------:| ---------------- | ----- |
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG   |   26/06          |       |
-| Ember                         | BERNELIN, GUTIERREZ, -place vacante-  |   27/03          |       |
+| Ember                         | BERNELIN, GUTIERREZ, -place vacante-  |   27/03          |[Diapo](https://docs.google.com/presentation/d/1LhGD858Z_nREu2CrbhrM_hBOD_cjqf2I9iij2eBzCbM)      |
 | Angular                       | keraghel, seguin, touatioui           |   03/04          |[Angular](https://docs.google.com/presentation/d/1IvAQNlkoa8PQmyCQpsnwpEizZdNVLc7CtrZZm0mA1G8/edit#slide=id.p)|
 | React                         | CHAPUT, HERAUT, SACCHARIN, BONI       |   29/05          |       |
 | P5.js                         | SAHIN, HONGOIS, LACOMBE               |   22/05          |       |
