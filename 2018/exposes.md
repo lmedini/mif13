@@ -11,7 +11,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | ----------------------------- |:-------------------------------------:| ---------------- | ----- |
 | Phantom.js                    | GOUDARD, LAO, NGUON, KONG WIN CHANG   |   26/06          |       |
 | Ember                         | BERNELIN, GUTIERREZ, -place vacante-  |   27/03          |[Diapo](https://docs.google.com/presentation/d/1LhGD858Z_nREu2CrbhrM_hBOD_cjqf2I9iij2eBzCbM)      |
-| Angular                       | keraghel, seguin, touatioui           |   03/04          |       |
+| Angular                       | keraghel, seguin, touatioui           |   03/04          |[Angular](https://docs.google.com/presentation/d/1IvAQNlkoa8PQmyCQpsnwpEizZdNVLc7CtrZZm0mA1G8/edit#slide=id.p)|
 | React                         | CHAPUT, HERAUT, SACCHARIN, BONI       |   29/05          |       |
 | P5.js                         | SAHIN, HONGOIS, LACOMBE               |   22/05          |       |
 | D3.js                         | LAFOND, NUEL, MARRON                  |   22/05          |       |
@@ -21,7 +21,7 @@ Cette liste est indicative, vous pouvez proposer d'autres sujets.
 | WebAssembly                   | CURRANT, GRANDY, GUEUX                |   26/06          |       |
 | TypeScript                    | SOW, DIALLO, VERA, MARIE MICHAEL RAJ  |   29/05          |       |
 | Web GL                        | NGUYEN, PHAM, NGUYEN, HUYNH           |   29/06          |       |
-| Meteor                        | PEULTIER, FONTAINE, PHAM              |   03/04          |       |
+| [Meteor](https://www.meteor.com)                        | PEULTIER, FONTAINE, PHAM              |   03/04          |[Diapo](https://docs.google.com/presentation/d/1OWK-K2rrSAeMlZMp_eipvFxwY2uFn0QP7g7msG_CHas)       |
 | A-Frame                       | JIMENEZ, LAFIOSCA, -place vacante-    |   22/05          |       |
 | [Django](https://www.djangoproject.com/) | BOZON , BELZUNCE , RAMOS TUBINO , FRITSCH | 20/02 |[Diapo](https://docs.google.com/presentation/d/1IVOVZdvF68tM90u75pcHQZ1S_smxvVn2hLf4em7HXbA)    |
 | RequireJS                     | MOUSSA, LAM , LITIM                   |   19/06          |       |

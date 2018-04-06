@@ -15,7 +15,7 @@
 | CM 2     | 13/02 |  Frameworks côté client  | [html](cours/cm2-frameworks) — [pdf](cours/cm2-frameworks.pdf) | A. Tabard |
 | CM 3     | 20/02 |  Programmation réactive  | [pdf](cours/cm3-reactivity.pdf) | A. Tabard |
 | CM 4     | 27/03 |  Mise en forme avancée   | [pdf](cours/cm4-responsive.pdf) | A. Tabard |
-| CM 5     | 03/04 |  Requêtage cross-domaine | | L. Medini |
+| CM 5     | 03/04 |  Requêtage cross-domaine | [html](https://perso.liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Mashup.html) | L. Medini |
 | CM 6     | 22/05 |  Stockage de données     | | L. Medini |
 | CM 7     | 29/05 |  Introduction Web mobile | | A. Tabard |
 | CM 7 bis | 29/05 |  Touch events            | | A. Tabard |
@@ -35,7 +35,7 @@
 | [TP 2](TP2) | 13/02 | Introduction à Vuejs                 |         |
 | [TP 3](TP2/#tp3-suite) | 20/02 | Réactivité et Vue         |         |
 | [TP 4](TP2/#tp4-suite) | 27/03 | Mise en forme avancée     | rendu 1 | 
-| TP 5        | 03/04 | Requêtage cross-domaine  |         |
+| [TP 5](TP5)        | 03/04 | Requêtage cross-domaine  |         |
 | TP 6        | 22/05 | Stockage de données      | rendu 2 | 
 | TP 7        | 29/05 | Web mobile, touch et capteurs |    |
 | TP 8        | 19/06 | Progressive web apps     | rendu 3 |
