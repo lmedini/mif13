@@ -21,7 +21,7 @@ Suivez ce [lien](http://canaltp.github.io/navitia-playground/play.html?request=h
 
 Explorez l'objet JSON retourné, notamment la liste de ligne. Pour chaque ligne on s'intéressera aux clés `code`,  `name`, et `id`.
 
-##### Affiche la liste des lignes
+##### Affichage de la liste des lignes
 
 Créer un composant `Lignes` (et ses enfants) qui affiche la liste de lignes. Utiliser Vuetify pour cela. Suivez le même principe que l'affichage des résultats du TP précédent.
 
@@ -31,7 +31,11 @@ Vous pouvez ajouter à la `v-list` vuetify un boutton `v-list-tile-action` (voir
 
 ##### Récupération des informations d'une ligne TCL
 
-`https://api.navitia.io/v1/coverage/fr-se/lines/line%3ADGL%3AC9Aa9/route_schedules?from_datetime=20180522T120000&items_per_schedule=25`
+En cas de clic sur le bouton télécharger nous allons maintenant récupérer les horaires de la ligne, grace à son identifiant. La requête GET devrait avoir la forme suivante :
+
+`https://api.navitia.io/v1/coverage/fr-se/lines/line:DGL:C9Aa9/route_schedules?from_datetime=20180722T120000&items_per_schedule=25`
+
+Il semblerait qu'il soit nécessaire d'indiquer une date/heure et un nombre d'éléments à renvoyer. Prenez soit la date/heure actuelle, soit une suffisamment dans le futur (juillet).
 
 
 ##### Sauvegarde des horaires d'une ligne 
