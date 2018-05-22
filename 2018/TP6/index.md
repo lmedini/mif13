@@ -84,9 +84,9 @@ Parcourir le localStorage en filtrant les clés et charger celles dont l'id comm
 
 ### Rendu
 
-À rendre pour le mercredi 4 avril à 23h59.
+À rendre pour le dimanche 27 mai à 23h59.
 
-Penser à mettre à jour votre README pour inclure : les identifiants du binome (n° étudiant, nom, prénom), les instruction de build, les dépendances implicites (i.e. les choses installées en global), toute autre chose facilitant la compréhension du projet par le correcteur.
+Penser à mettre à jour votre README, incluant à minima : les identifiants du binome (n° étudiant, nom, prénom), les instruction de build, les dépendances implicites (i.e. les choses installées en global), toute autre chose facilitant la compréhension du projet par le correcteur.
 
 Créer une branche rendu-tp6, vous continuerez à travailler sur le master dans les TP à venir. Toute erreur sur la gestion des branches sera pénalisée.
 
