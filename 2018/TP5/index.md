@@ -8,8 +8,7 @@ Nous allons continuer le développement de l’application de conseil en mobilit
 1. Se créer un compte sur [navitia.io](https://www.navitia.io/) si ce n’est pas encore le cas.
 2. Récupérer une clé (token) pour que votre application puisse requête l’API [https://www.navitia.io/profile](https://www.navitia.io/profile).
 3. [Tester l’api](http://doc.navitia.io/#third-step) depuis votre navigateur. Par exemple en accédant à [la liste des lignes](https://api.navitia.io/v1/coverage/sandbox/lines) disponibles dans le bac à sable de Navitia. Ou à un trajet entre deux points à Paris : [https://api.navitia.io/v1/coverage/sandbox/journeys?from=2.3749036%3B48.8467927&to=2.2922926%3B48.8583736&](http://canaltp.github.io/navitia-playground/play.html?request=https%3A%2F%2Fapi.navitia.io%2Fv1%2Fcoverage%2Fsandbox%2Fjourneys%3Ffrom%3D2.3749036%3B48.8467927%26to%3D2.2922926%3B48.8583736&token=3b036afe-0110-4202-b9ed-99718476c2e0)
-
-4. Navitia utilise une [Basic authentication](http://doc.navitia.io/#authentication). Il suffit d’utiliser votre token comme nom d’utilisateur. *NB : il n'est pas possible d'utiliser votre token directement dans l'URL, les navigateurs modernes bloquent ce procédé à la sécurité douteuse. Il vous faudra ajouter votre token dans un un champ `Authorisation` dans les headers de votre requête.*
+4. Navitia utilise une [Basic authentication](http://doc.navitia.io/#authentication). Il suffit d’utiliser votre token comme nom d’utilisateur. *NB : il n'est pas possible d'utiliser votre token directement dans l'URL, les navigateurs modernes bloquent ce procédé à la sécurité douteuse. Il vous faudra ajouter votre token dans un un champ `Authorization` dans les headers de votre requête.*
 
 5. Tester des requêtes de base depuis [Postman](https://www.getpostman.com/), le [playground de Navitia](http://canaltp.github.io/navitia-playground/play.html) ou les outils de développement de votre navigateur.
 
@@ -64,7 +63,7 @@ La méthode `querySelections(val)` exécutera une requête vers l'API de Navitia
 
 La requête à exécuter devrait être sous cette forme :  [http://api.navitia.io/v1/coverage/fr-se/places?q=lieu](http://api.navitia.io/v1/coverage/fr-se/places?q=lieu)
 
-Votre token est à inclure dans les headers de votre requête (champ `Authorisation`). Pour réaliser votre requête la fonction `fetch` est supportée par les navigateurs modernes. [La documentation](https://developer.mozilla.org/fr/docs/Web/API/WindowOrWorkerGlobalScope/fetch) vous aidera correctement compléter votre header.
+Votre token est à inclure dans les headers de votre requête (champ `Authorization`). Pour réaliser votre requête la fonction `fetch` est supportée par les navigateurs modernes. [La documentation](https://developer.mozilla.org/fr/docs/Web/API/WindowOrWorkerGlobalScope/fetch) vous aidera correctement compléter votre header.
 
 Dans l'idéal votre token devrait être stocké sur votre serveur et votre application Web ne le conserverait [surtout pas dans son code source](https://github.com/dxa4481/truffleHog). Pour des raisons de simplicité dans le cadre de ce TP, ces considérations de sécurité peuvent être ignorées.
 
