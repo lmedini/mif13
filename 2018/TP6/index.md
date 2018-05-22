@@ -44,11 +44,43 @@ La liste des arrêts est accessible via `route_schedules[0].table.rows`.  Rajout
 Utiliser l'extension Vuejs des developers tools de votre navigateur pour vérifier que votre store vuex est construit correctement
 
 
-##### Sauvegarde des horaires d'une ligne 
+##### Sauvegarde des arrêts et horaires d'une ligne 
 
-Nous allons utiliser local
+Nous allons utiliser l'API localStorage du navigateur pour stocker les arrêts et horaires d'une ligne.
 
+Dans le store consacré au stockage des lignes, sauvegarder la ligne dans le localStorage du site au moment de son ajout dans le store. On utilisera `JSON.stringify` pour sérialiser l'objet JSON qui sera stocké :
 
+```js
+localStorage.setItem(objet.id, JSON.stringify(objet.stops))
+```
+
+##### Chargement du localStorage au chargement de l'application
+
+Lors du chargement de l'application nous voulons maintenant charger les lignes stockées dans le localStorage. Créer un lifecycle hook `beforeCreate` qui chargera les données du localStorage dans l'application Vue :
+
+```js
+new Vue({
+	el: '#app',
+	store,
+	beforeCreate() {
+		this.$store.dispatch('loadLines');
+	}
+});
+```
+
+Dans le module dédié au stockage des lignes de votre store, rajouter une actions qui charge dans son `state` les données du localStorage.
+
+```js
+	actions: {
+	...
+		loadLines(state) {
+			//TODO
+		}
+	...
+	},
+```
+
+Parcourir le localStorage en filtrant les clés et charger celles dont l'id commence par `line:DGL`
 
 ### Rendu
 
