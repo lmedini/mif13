@@ -47,3 +47,40 @@ Utiliser l'extension Vuejs des developers tools de votre navigateur pour vérifi
 ##### Sauvegarde des horaires d'une ligne 
 
 Nous allons utiliser local
+
+
+
+### Rendu
+
+À rendre pour le mercredi 4 avril à 23h59.
+
+Penser à mettre à jour votre README pour inclure : les identifiants du binome (n° étudiant, nom, prénom), les instruction de build, les dépendances implicites (i.e. les choses installées en global), toute autre chose facilitant la compréhension du projet par le correcteur.
+
+Créer une branche rendu-tp6, vous continuerez à travailler sur le master dans les TP à venir. Toute erreur sur la gestion des branches sera pénalisée.
+
+Reporter le numéro Tomuss (pas de ‘p’ devant) de votre binome sur Tomuss
+
+Reporter le lien vers votre dépôt git qui permette de le cloner facilement, au format suivant : forge.univ-lyon1.fr:idutilisateur/projet.git
+
+
+### Barème
+
+- README 
+- Rendu **propre** via Tomuss et la branche rendu-tp6
+- Structure de projet Vue et structure sur la forge propre (bon usage de .gitignore)
+- npm run dev lance le projet sur une machine “vierge” (à défaut toutes les dépendances globales sont explicitées dans le README)
+- Qualité de l’exécution (code propre, ESLint ne soulève pas d’erreurs, qualité d’usage de l’application)
+- Travail réparti au sein du binome : push équitables sur la forge (nombre de commits, nombre de lignes, etc.)
+
+- Tous les éléments sont des composants
+- Les composants ont le bon niveau de responsabilité 
+- Utilisation appropriée de Vuetify
+- Requêtage sur navitia.io
+  - autocomplete
+  - journey
+  - lignes
+  - arrêts
+- LocalStorage
+  - enregistrement des arrêts
+  - chargement des arrêts
+- Bonne interaction entre le store vuex et localstorage
