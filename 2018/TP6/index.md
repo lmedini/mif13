@@ -68,7 +68,7 @@ new Vue({
 });
 ```
 
-Dans le module dédié au stockage des lignes de votre store, rajouter une actions qui charge dans son `state` les données du localStorage.
+Dans le module dédié au stockage des lignes de votre store, rajouter une action qui charge dans le `state` les données du localStorage.
 
 ```js
 	actions: {
@@ -80,7 +80,7 @@ Dans le module dédié au stockage des lignes de votre store, rajouter une actio
 	},
 ```
 
-Parcourir le localStorage en filtrant les clés et charger celles dont l'id commence par `line:DGL`
+Parcourir le localStorage en filtrant les clés et charger celles dont l'id commence par `line:DGL`. Modifier l'affichage de  la liste des lignes (changer la couleur ou afficher une icone) pour signifier les lignes dont les informations sont stockées en local.
 
 ### Rendu
 
