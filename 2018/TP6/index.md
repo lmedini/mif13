@@ -21,6 +21,8 @@ Suivez ce [lien](http://canaltp.github.io/navitia-playground/play.html?request=h
 
 Explorez l'objet JSON retourné, notamment la liste de ligne. Pour chaque ligne on s'intéressera aux clés `code`,  `name`, et `id`.
 
+Construisez un module de store dédié aux informations sur les lignes sur le modèle du TP précédent.
+
 ##### Affichage de la liste des lignes
 
 Créer un composant `Lignes` (et ses enfants) qui affiche la liste de lignes. Utiliser Vuetify pour cela. Suivez le même principe que l'affichage des résultats du TP précédent.
@@ -37,6 +39,11 @@ En cas de clic sur le bouton télécharger nous allons maintenant récupérer le
 
 Il semblerait qu'il soit nécessaire d'indiquer une date/heure et un nombre d'éléments à renvoyer. Prenez soit la date/heure actuelle, soit une suffisamment dans le futur (juillet).
 
+La liste des arrêts est accessible via `route_schedules[0].table.rows`.  Rajouter un élément `stops` qui contiendra un Array de tous les arrêts de la ligne correspondante dans l'objet vuex qui stocke les lignes.
+
+Utiliser l'extension Vuejs des developers tools de votre navigateur pour vérifier que votre store vuex est construit correctement
+
 
 ##### Sauvegarde des horaires d'une ligne 
 
+Nous allons utiliser local
