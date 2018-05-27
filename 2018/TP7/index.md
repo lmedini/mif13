@@ -70,7 +70,24 @@ Reprendre le composant d'autocomplétion. Rajouter un bouton qui permette d'util
 
 En s'inspirant de [travaux en Réalité Augmenté](http://graphics.cs.columbia.edu/publications.newer/iswc97.pdf) remis [au gout du jour par Google dernièrement](https://arstechnica.com/gadgets/2018/05/google-maps-unveils-its-first-ever-augmented-reality-interface/), nous allons prototyper un système de guidage.
 
+Créer une nouvelle route et un nouveau composant.
 
+##### Afficher un flux vidéo
 
+Le composant contiendra un element '''video''' affichant le flux vidéo de la caméra : 
 
+```html
+<video id="video" width="640" height="480" autoplay></video>
+```
 
+Suivre les explications de David Walsh pour afficher un flux vidéo : https://davidwalsh.name/browser-camera.
+
+##### Afficher des flèches  
+
+Rajouter un canvas par dessus la vidéo en s'inspirant de ce [jsfiddle](https://jsfiddle.net/7sk5k4gp/13/), le canvas ne peut avoir qu'une taille déterminéé, il doit donc être retaillé programatiquement.
+
+Dessiner un triangle [en suivant le tutorial de la MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes).
+
+##### Lier accéléromètre et flèches
+
+En fonction de la valeur de l'accéléromètre sur l'axe Z ([`DeviceOrientationEvent.alpha`](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha)) afficher une flèche pointant vers la droite (0 - 180) ou vers la gauche (180 - 360).
