@@ -18,10 +18,8 @@
 | CM 5     | 03/04 |  Requêtage cross-domaine | [html](https://perso.liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Mashup.html) | L. Medini |
 | CM 6     | 22/05 |  Stockage de données     | [html](https://perso.liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Storage.html)| L. Medini |
 | CM 7     | 29/05 |  Introduction Web mobile | | A. Tabard |
-| CM 7 bis | 29/05 |  Touch events            | | A. Tabard |
 | CM 8     | 19/06 |  Progressive Web Apps    | | A. Tabard |
-| CM 9     | 26/06 |  Performance             | | L. Medini |
-| CM 10    | 29/06 |  Exposés 				  | | |
+| CM 9     | 26/06 |  Exposés                 | | L. Medini |
 
 <!-- CM 10 : Web messaging -->
 <!-- CM 10 bis : WebSockets -->
@@ -37,10 +35,9 @@
 | [TP 4](TP2/#tp4-suite) | 27/03 | Mise en forme avancée     | rendu 1 |
 | [TP 5](TP5)        | 03/04 | Requêtage cross-domaine  |         |
 | [TP 6](TP6)        | 22/05 | Stockage de données      | rendu 2 |
-| TP 7        | 29/05 | Web mobile, touch et capteurs |    |
-| TP 8        | 19/06 | Progressive web apps     | rendu 3 |
-| TP 9        | 26/06 | Performance et packaging |         |
-| TP 10       | TBD   |                          | rendu 4 |
+| TP 7        | 29/05 | Web mobile, touch et capteurs   |         |
+| TP 8        | 19/06 | Progressive web apps            | rendu 3 |
+| TP 9        | 26/06 | Web Assembly                    | rendu 4 |
 
 
 ## Exposés
