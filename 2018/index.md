@@ -18,7 +18,7 @@
 | CM 5     | 03/04 |  Requêtage cross-domaine | [html](https://perso.liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Mashup.html) | L. Medini |
 | CM 6     | 22/05 |  Stockage de données     | [html](https://perso.liris.cnrs.fr/lionel.medini/enseignement/M1IF13/CM/CM/CM_Storage.html)| L. Medini |
 | [CM 7](cours/cm7-WebMobile.pdf)     | 29/05 |  Introduction Web mobile | | A. Tabard |
-| CM 7     | 31/05 |  Web Workers			  | | A. Tabard |
+| CM 7     | 31/05 |  Web Workers			  | | L. Medini |
 | CM 8     | 19/06 |  Progressive Web Apps    | | A. Tabard |
 | CM 9     | 26/06 |  Exposés (14h-16h15)     | | L. Medini |
 
