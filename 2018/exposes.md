@@ -54,12 +54,11 @@ Ressources intéressantes :
 
 - Note de groupe
   - Choix du sujet (complexité)
-  		Structure équilibrée de la présentation
+     Structure équilibrée de la présentation
   - Lisibilité
   - Respect du temps et mise en route rapide
   - Démo
-
-		Note personnelle		
+- Note personnelle		
   - Maitrise de l'exposé
   - Qualité de la présentation orale (niveau de discours, parler fort en direction de la classe, ...)
   - Réponses aux questions
