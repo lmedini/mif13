@@ -47,9 +47,9 @@ Attention, en fonction des navigateurs, il vous sera sans doute nécessaire d'ex
 
 ##### Afficher une flèche montrant la direction à prendre
 
-Pour afficher la direction fictive à prendre, vous pouvez simplement afficher une balise `img` par dessus l'élément `video`.
+Pour afficher la direction fictive à prendre, vous pouvez simplement afficher une balise `img` avec une flèche par dessus l'élément `video`.
 
-En fonction de la valeur de l'accéléromètre sur l'axe Z ([`DeviceOrientationEvent.alpha`](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha)) vers une direction fixe.
+La flèche devra bouger en fonction de la valeur de l'accéléromètre sur l'axe Z ([`DeviceOrientationEvent.alpha`](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha)) vers une direction fixe.
 
 Pour lire les valeurs de l'accéléromètre, vous pouvez vous référer à la [documentation MDN](https://developer.mozilla.org/fr/docs/WebAPI/Detecting_device_orientation).
 
