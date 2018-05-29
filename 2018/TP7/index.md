@@ -60,3 +60,92 @@ document.getElementById('fleche').style.transform =
                       'rotateX(' + event.beta + 'deg) ' +
                       'rotateZ(' + event.alpha + 'deg)'
 ```
+
+
+
+### Détection des capacités du dispositif
+
+[Modernizr](https://modernizr.com/) est un outil qui permet de créer un script JS testant de manière efficace et fiable les capacités du dispositif sur lequel la page est chargée. Pour être plus efficace, modernizr se base sur un mécanisme de customization : seul le code des tests souhaités est généré.
+
+Créer une nouvelle route (nommée '''modernizr''') pointant vers une page qui utilisera [Modernizr](https://modernizr.com/) pour tester les API suivantes :
+
+- Geolocation API
+- Orientation and Motion Events
+- DOM Pointer Events API
+- Local Storage
+- Vibration API
+- Canvas
+- Battery API
+
+Nous allons utiliser [webpack-modernizr-loader](https://github.com/itgalaxy/webpack-modernizr-loader) pour créer notre script modernizr qui permettra de tester les APIs ci-dessus.
+
+1. Installer webpack-modernizr-loader :
+
+```bash
+$ npm install webpack-modernizr-loader --save-dev
+```
+
+2. Créer un fichier '''.modernizrrc.js''' à la racine du projet qui contient votre configuration de modernizr. La liste des features est disponible dans [la documentation de modernizr](https://modernizr.com/docs/)
+
+```javascript
+"use strict";
+
+module.exports = {
+  options: [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "geolocation"
+  ]
+};
+```
+
+3. Configurer le fichier Webpack de base (webpack.base.conf.js) pour utiliser modernizr, voici les lignes à rajouter. **Ne pas faire de copier coller** mais insérer les lignes aux endroits opportuns du fichier existants
+
+```js
+const path = require('path');
+
+module.exports = {
+  module: {
+    rules: [
+      {
+        loader: "webpack-modernizr-loader",
+        test: /\.modernizrrc\.js$/
+      }
+    ]
+  },
+  resolve: {
+    alias: {
+      modernizr$: resolve(".modernizrrc.js")
+    }
+  }
+}
+```
+
+4. Importer modernizr dans votre composant
+
+```javascript
+<script>
+import modernizr from 'modernizr'
+
+export default {
+  name: 'Your component name',
+  created: function () {
+    // Todo check compatibility
+    if (modernizr.feature) ...
+  },
+  methods: {
+  ...
+  }
+}
+</script> 
+```
+
+Le composant affichera 'oui' ou 'non' en face du nom de chaque API.
+
+Tester sur votre ordinateur, puis sur un smartphone.
+
+### Accéder à votre position géographique
+
+Re-prendre la page et afficher les coordonnées GPS en face de "Geolocation API", au lieu d'un simple oui.
+
