@@ -43,12 +43,20 @@ Le composant contiendra un element '''video''' affichant le flux vidéo de la ca
 
 Suivre les explications de David Walsh pour afficher un flux vidéo : https://davidwalsh.name/browser-camera.
 
-##### Afficher des flèches  
+Attention, en fonction des navigateurs, il vous sera sans doute nécessaire d'exécuter le code nécessaire à l'utilisation de la caméra dans une fonction appelée à la suite d'un action utilisateur (onclick, ...).
 
-Rajouter un canvas par dessus la vidéo en s'inspirant de ce [jsfiddle](https://jsfiddle.net/7sk5k4gp/13/), le canvas ne peut avoir qu'une taille déterminéé, il doit donc être retaillé programatiquement.
+##### Afficher une flèche montrant la direction à prendre
 
-Dessiner un triangle [en suivant le tutorial de la MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes).
+Pour afficher la direction fictive à prendre, vous pouvez simplement afficher une balise `img` par dessus l'élément `video`.
 
-##### Lier accéléromètre et flèches
+En fonction de la valeur de l'accéléromètre sur l'axe Z ([`DeviceOrientationEvent.alpha`](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha)) vers une direction fixe.
 
-En fonction de la valeur de l'accéléromètre sur l'axe Z ([`DeviceOrientationEvent.alpha`](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha)) afficher une flèche pointant vers la droite (0 - 180) ou vers la gauche (180 - 360).
+Pour lire les valeurs de l'accéléromètre, vous pouvez vous référer à la [documentation MDN](https://developer.mozilla.org/fr/docs/WebAPI/Detecting_device_orientation).
+
+Pour transformer l'image de flèche en fonction des valeurs que vous obtenez, vous pouvez utiliser une propriété CSS `transform` :
+
+```js
+document.getElementById('fleche').style.transform =
+                      'rotateX(' + event.beta + 'deg) ' +
+                      'rotateZ(' + event.alpha + 'deg)'
+```
