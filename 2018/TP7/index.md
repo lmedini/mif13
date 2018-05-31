@@ -82,7 +82,7 @@ Nous allons utiliser [webpack-modernizr-loader](https://github.com/itgalaxy/webp
 1. Installer webpack-modernizr-loader :
 
 ```bash
-$ npm install webpack-modernizr-loader --save-dev
+$ npm install webpack-modernizr-loader
 ```
 
 2. Créer un fichier '''.modernizrrc.js''' à la racine du projet qui contient votre configuration de modernizr. La liste des features est disponible dans [la documentation de modernizr](https://modernizr.com/docs/)
