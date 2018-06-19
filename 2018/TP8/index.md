@@ -26,6 +26,12 @@ La manière la plus propre de fournir un appshell efficace, est de faire une par
 
 Pour des raisons de simplicité nous allons créer un appshell simple en éditant directement l' `index.html` de notre projet.
 
+##### Preload
+
+Permettez le téléchargement et le rendu asynchrone des polices et styles pour accélérer la première peinture. Si vous incluez des polices depuis votre index, chargez les avec `rel="prelaod"`, en suivant [ces indications](https://alligator.io/html/preload-prefetch/).
+
+** Attention tester plutôt dans Chrome **
+
 ##### Bannière / menu
 
 - Créer une banière temporaire directement dans le index.html
@@ -33,7 +39,7 @@ Pour des raisons de simplicité nous allons créer un appshell simple en éditan
 
 ##### Feedback de chargement 
 
-Afficher un spinner Indiquant que le chargement est en cours.
+Afficher un spinner indiquant que le chargement est en cours.
 
 ##### Gestion de l'absence de JS
 
@@ -48,6 +54,18 @@ Afficher un spinner Indiquant que le chargement est en cours.
 
 
 ### Manifest
+
+Nous allons maintenant rédiger un [Web App Manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest). Voir l'[exemple de la MSDN](https://developer.mozilla.org/en-US/docs/Web/Manifest) ou celui de [ Google](https://developers.google.com/web/fundamentals/web-app-manifest/)
+
+Vous pouvez utiliser ce [générateur d'icônes](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html) (mais de très nombreux autres sont disponibles).
+
+Enfin inclure le manifest dans le head de votre `index` :
+
+```html
+<link rel="manifest" href="/manifest.json">
+```
+
+Dans les outils de développement de Chrome il est possible d'inspecter son manifest.
 
 
 
@@ -70,6 +88,8 @@ Créer une branche rendu-tp8, même si ceci est le dernier rendu du cours. Toute
 Reporter le numéro Tomuss (pas de ‘p’ devant) de votre binome sur Tomuss.
 
 Reporter le lien vers votre dépôt git qui permette de le cloner facilement, au format suivant : `forge.univ-lyon1.fr:idutilisateur/projet.git`
+
+La mise en place des PWA étant plus avancée dans Chrome,  **ce TP sera corrigé avec Chrome**. 
 
 ### Barême
 
